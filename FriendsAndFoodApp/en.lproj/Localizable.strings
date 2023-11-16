@@ -1,0 +1,295 @@
+/* 
+ Localizable.strings
+ FriendsAndFoodApp
+ 
+ Created by Luminescent Digital on 15/08/18.
+ Copyright © 2018 LumiMac. All rights reserved.
+ */
+
+//Login
+"This field is required" = "This field is required";
+"Incorrect e-mail" = "Incorrect e-mail";
+"Incorrect password" = "Incorrect password";
+"Invalid field" = "Invalid field";
+"By using friends & food, you agree on our Terms of Service and Privacy Policy" = "By using Friends & Food, you agree on our Terms of Service and Privacy Policy";
+"Passwords do not match" = "Passwords do not match";
+
+
+//Menu
+"home" = "Home";
+"my_recipes" = "My Recipes";
+"my_preferred_restaurants" = "My favorite restaurants";
+"my_favorite" = "My Favourite";
+"i_like" = "I Like";
+"my_friends" = "My Friends";
+"stores" = "Stores";
+"preferences" = "Preferences";
+"languages" = "Languages";
+"notifications" = "Notifications";
+"contact_us" = "Contact us";
+"logout" = "Logout";
+"All The Recipes" = "All The Recipes";
+"What I Like" = "What I Like";
+
+
+//Tab
+"Home" = "Home";
+"AtTheMoment" = "AtTheMoment";
+"Eat Well" = "Eat Well";
+"Thematic" = "Thematic";
+"Profile" = "Profile";
+"Followers" = "Followers";
+"Reviews" = "Reviews";
+"Followers" = "Followers";
+"Reviews" = "Followers";
+
+//Restaurant
+"There are no recipes for this restaurant" = "There are no recipes for this restaurant";
+"There are no activities for this restaurant" = "There are no activities for this restaurant";
+"You have no favorite restaurants" = "You have no favorite restaurants";
+"Sorry, we did not find any results" = "Sorry, we did not find any results";
+"Please select a country first" = "Please select a country first";
+"Sorry, we did not find any results" = "Sorry, we did not find any results";
+
+//Messaging
+"Messaging" = "Messaging";
+"Messaging with" = "Messaging with";
+
+//Freinds
+"You have no friends at this moment" = "You have no friends at this moment";
+"You have no requests at this moment" = "You have no requests at this moment";
+"You have no invitations at this moment" = "You have no invitations at this moment";
+"Add Friend" = "Add Friend";
+"Enter email" = "Enter email";
+
+
+//Notifications
+"Notification Settings" = "Notification Settings";
+
+
+//Recipes
+" As soon as you are on a recipe, click on the Like sign, it will be found here. " = " As soon as you are on a recipe, click on the Like sign, it will be found here.";
+"Other" = "Other" ;
+"Enter dish type" = "Enter the dish type" ;
+"Enter title" = "Enter the title" ;
+"Enter difficulty level" = "Enter the difficulty level" ;
+"Enter preparation time" = "Enter the preparation time" ;
+"Enter cooking time" = "Enter the cooking time" ;
+"Select theme" = "Choose the diet" ;
+"Select category" = "Choose the category" ;
+"Only a maximum of 12 ingredients can be added" = "Only a maximum of 12 ingredients can be added" ;
+"Only maximum of 12 steps can be added" = "Only maximum of 12 steps can be added" ;
+"Enter number of persons" = "Enter the number of persons" ;
+"Enter atleast one ingredient" = "Enter at least one ingredient" ;
+"Enter atleast one step" = "Enter at least one step" ;
+"Enter quantity" = "Enter the quantity" ;
+"Select measure" = "Select a measure" ;
+"A maximum of only 6 images can be added" = "A maximum of only 6 images can be added" ;
+"Add atleast one image" = "Add at least one image" ;
+"0 cal" = "0 cal" ;
+"For" = "For" ;
+"persons" = "persons" ;
+"min" = "min" ;
+"hr" = "hr" ;
+"Step" = "Step" ;
+
+
+//At the moment
+"Entrances" = "Entrances";
+"Dishes" = "Dishes";
+"Desserts" = "Desserts";
+"No recipes found" = "No recipes found";
+"Dishes Type" = "Dishes Type";
+"Ingredients Family" = "Ingredients Family";
+"INGREDIENT" = "INGREDIENT";
+"CATEGORY" = "CATEGORY";
+"Log in to continue!" = "Log in to continue!";
+"reviews on this recipe" = "reviews on this recipe";
+"review on this recipe" = "reviews on this recipe";
+
+
+//Restaurant or Store Detail
+
+
+"Sunday" = "Sunday";
+
+"Monday" = "Monday";
+
+"Tuesday" = "Tuesday";
+
+"Wednesday" = "Wednesday";
+
+"Thursday" = "Thursday";
+
+"Friday" = "Friday";
+
+"Saturday" = "Saturday";
+
+"closed" = "closed";
+
+"In the morning" = "In the morning";
+
+"In the evening" = "In the evening";
+
+"no data given by the owner" = "the data not available";
+
+"Call us" = "Call us";
+
+"Send email" = "Send an email";
+
+"email wasn't given by the owner" = "email wasn't given by the owner";
+
+"Website" = "Website";
+
+"website wasn't given by the owner" = "website wasn't given by the owner";
+
+"Facebook" = "Facebook";
+
+"facebook page wasn't given by the owner" = "facebook page wasn't given by the owner";
+
+"There are no menu for this restaurant" = "There are no menu for this restaurant";
+
+"Update Info" = "Update Info";
+
+"Owner confirmation" = "Owner confirmation";
+
+"Are you the owner of this store?" = "Are you the manager of this store?";
+
+"Yes" = "Yes";
+"No" = "No";
+"Please confirm that you are a professional ?" = "Please confirm that you are a professional ?";
+"I confirm" = "I confirm";
+"Later" = "Later";
+"reviews on this store" = "reviews on this store";
+"expensive" = "expensive";
+"cheap" = "cheap";
+
+"Affordable" = "Affordable";
+"There are no products for this store" = "This merchant has not yet added his products, you can still contact him by phone.";
+"Are you the owner of this restaurant?" = " Are you the manager of this restaurant ?";
+"reviews on this restaurant" = "reviews on this restaurant";
+"Confirmation" = "Confirmation";
+
+
+//Recipe Detail
+"Myself" = "Myself";
+
+
+//My Profile
+"UPDATE PERSONAL ADDRESS" = "Change of address";
+"UPDATE PROFESSIONAL ADDRESS" = "Change of business address";
+
+//Store
+
+"Products" = "Products";
+
+//Favorites list
+"Favorites list" = "Favorites list";
+"MY RECIPE" = "Recipes";
+"My Store" = "Stores & Restaurants";
+"My Followers" = "Followers";
+
+//Add Store
+"Choose an Image" = "Choose an Image";
+"Take an image" = "Take an image";
+"Search in the gallery" = "Search in the gallery";
+"Cancel" = "Cancel";
+"Enter the activity of the store" = "Enter the activity of the store";
+"A maximum of only 6 images can be added" = "A maximum of only 6 images can be added";
+"You don't have camera" = "You don't have camera";
+"Warning" = "Warning";
+"OK" = "OK";
+"Enter Official name of the establishment" = "Enter Official name of the establishment";
+"Enter the country" = "Enter the country";
+"Enter the city" = "Enter the city";
+"Enter the postal code" = "Enter the postal code";
+"Enter the number and street" = "Enter the number and street";
+"Enter the phone" = "Enter the phone";
+"Enter the restaurant email" = "Enter the restaurant email";
+"Enter the website URL" = "Enter the website URL";
+"Enter the facebook page" = "Enter the facebook page";
+
+"Email is not valid" = "Email is not valid";
+"Enter Email" = "Enter your Email";
+"Enter restaurant email" = "Enter the restaurant email";
+"Select at least one interest" = "Select at least one diet";
+"Enter Culinary Specialties" = "Enter the Culinary Specialties";
+"Enter price range" = "Enter the price range";
+"Kindly accept terms and conditions" = "Kindly accept terms and conditions";
+
+//I Like
+"I like" = "I like";
+"I no longer like" = "I no longer like";
+"Ingredients" = "Ingredients";
+"Interests" = "Diets";
+
+//Non Professional Home
+"Recipes" = "Recipes";
+"Restaurants" = "Restaurants";
+"Commerces" = "Shops";
+"Q&A" = "FAQ";
+"Friends" = "Friends";
+
+
+//My Friends
+"My Friends" = "My Friends";
+"You have no requests at this moment" = "You have no requests at this moment";
+"You have no invitations at this moment" = "You have no invitations at this moment";
+
+//FAQ
+"Frequently asked questions" = "Frequently asked questions";
+
+
+//CGU
+"cgu_url" = "https://en.friends-and-food.com/st-cgu";
+
+
+"Advanced Recipe Search" =    "Advanced Recipe Search";
+"Restaurants" =    "Restaurants";
+"Advanced Restaurant search" =    "Advanced Restaurant search";
+"Menu" =    "Menu";
+"Info" =    "Info";
+"fooders" =    "fooders";
+"Enter email" =    "Enter email";
+"Add a Friend" =    "Add a Friend";
+"Entrances" =    "Entrances";
+"Dishes" =    "Dishes";
+"Desserts" =    "Desserts";
+"Nutrition" =    "Nutrition";
+"Ingredient details" =    "Ingredient details";
+"Variance" =    "Variance";
+"No recipes found" =    "No recipes found";
+"Title" =    "Title";
+"Description" =    "Description";
+"Message" =    "Message";
+
+//User Preference
+"Hi" = "Hi";
+"Welcome to Friends & Food, let's talk about you and what you prefer in order to personalize your recipe suggestions" = "Welcome to Friends & Food, let's talk about you and what you prefer in order to personalize your recipe suggestions";
+"Which diets are right for you ?" = "Which diets are right for you ?";
+"Everything suits me !" = "Everything suits me !";
+"Check your desires among these themes" = "Check your desires among these themes";
+"Beginner" = "Beginner";
+"Intermediate" = "Intermediate";
+"Expert" = "Expert";
+"Indicate your level in cooking" = "Indicate your level in cooking";
+"This is indicative in order to offer you cooking challenges that correspond to your level." = "This is indicative in order to offer you cooking challenges that correspond to your level.";
+"Ingredients that I don't really like" = "Ingredients that I don't really like";
+"By adding what you don't like, the app spares you the recipes that contain any of these ingredients." = "By adding what you don't like, the app spares you the recipes that contain any of these ingredients.";
+
+"Well done !" = "Well done !";
+"Your Friends & Food account is perfectly configured." = "Your Friends & Food account is perfectly configured.";
+
+
+"Indicate your address !" = "Indicate your address !";
+"Receive custom local restaurants and shops recommendations by entering your address." = "Receive custom local restaurants and shops recommendations by entering your address.";
+"Select a country" = "Select a country";
+"Select a region" = "Select a region";
+"Select a city" = "Select a city";
+"Enter your zip code" = "Enter your zip code";
+"Enter your address" = "Enter your address";
+"Next step" = "Next step";
+
+
+"Select your language ?" = "Select your language ?";
+"Select your country from the list" = "Select your country from the list";

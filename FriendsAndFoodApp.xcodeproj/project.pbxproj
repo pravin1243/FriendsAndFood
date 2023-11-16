@@ -1,0 +1,1923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56009AE424D3ECEE005A5F6D /* FFLanguageRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56009AE324D3ECEE005A5F6D /* FFLanguageRequestModel.swift */; };
+		56009AE624D3F167005A5F6D /* FFLanguageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56009AE524D3F167005A5F6D /* FFLanguageObject.swift */; };
+		56009AE824D3F2B5005A5F6D /* LanguagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56009AE724D3F2B5005A5F6D /* LanguagesTableViewCell.swift */; };
+		56009AEC24D3FFD9005A5F6D /* FFStoreTypeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56009AEB24D3FFD9005A5F6D /* FFStoreTypeObject.swift */; };
+		56009AEE24D40068005A5F6D /* FFStoreTypeRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56009AED24D40068005A5F6D /* FFStoreTypeRequestModel.swift */; };
+		56009AF024D4013C005A5F6D /* FFStoreTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56009AEF24D4013B005A5F6D /* FFStoreTypeTableViewCell.swift */; };
+		5601616224DDD1DD00212E9C /* FFStoreDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5601616124DDD1DD00212E9C /* FFStoreDetailModel.swift */; };
+		5609052F24C717BC00EA3FDB /* FFIngredientDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609052E24C717BC00EA3FDB /* FFIngredientDetailController.swift */; };
+		5609053124C71A2300EA3FDB /* FFIngredientDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609053024C71A2300EA3FDB /* FFIngredientDetailTableViewCell.swift */; };
+		56157FA424DDBEAE008C021D /* FFRestaurantListCityWiseRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56157FA324DDBEAE008C021D /* FFRestaurantListCityWiseRequestModel.swift */; };
+		56157FA624DDBF81008C021D /* FFStoreListCityWiseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56157FA524DDBF81008C021D /* FFStoreListCityWiseModel.swift */; };
+		56157FA824DDC07E008C021D /* FFStoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56157FA724DDC07E008C021D /* FFStoreDetailViewController.swift */; };
+		561BBF8824C7E402006E47AC /* FFSeasonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561BBF8724C7E402006E47AC /* FFSeasonObject.swift */; };
+		561BBF8A24C7E706006E47AC /* FFSeasonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561BBF8924C7E706006E47AC /* FFSeasonModel.swift */; };
+		561BBF8C24C7EA67006E47AC /* FFFaqModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561BBF8B24C7EA67006E47AC /* FFFaqModel.swift */; };
+		561BBF8E24C7EB99006E47AC /* FFFaqObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561BBF8D24C7EB99006E47AC /* FFFaqObject.swift */; };
+		561BBF9024C7FE0E006E47AC /* FFNutritionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561BBF8F24C7FE0E006E47AC /* FFNutritionModel.swift */; };
+		562020FE24DC345200B626B4 /* FFStoreListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562020FD24DC345200B626B4 /* FFStoreListingViewController.swift */; };
+		5620210024DC398200B626B4 /* FFStoreObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562020FF24DC398200B626B4 /* FFStoreObject.swift */; };
+		5620210224DC404600B626B4 /* FFStoreListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5620210124DC404600B626B4 /* FFStoreListModel.swift */; };
+		562C78AE24D457A000E3530C /* FFIngrVarietyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562C78AD24D457A000E3530C /* FFIngrVarietyObject.swift */; };
+		562C78B024D4583600E3530C /* FFIngreVarietyRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562C78AF24D4583600E3530C /* FFIngreVarietyRequestModel.swift */; };
+		566DEFA424D948C500F44CD6 /* FFRestaurantMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566DEFA324D948C500F44CD6 /* FFRestaurantMenuModel.swift */; };
+		566DEFA624D9494600F44CD6 /* FFRestaurantMenuObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566DEFA524D9494600F44CD6 /* FFRestaurantMenuObject.swift */; };
+		566DEFA824D94A2300F44CD6 /* FFRestMenuObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566DEFA724D94A2300F44CD6 /* FFRestMenuObject.swift */; };
+		566DEFAA24D98E0800F44CD6 /* FFMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566DEFA924D98E0800F44CD6 /* FFMenuTableViewCell.swift */; };
+		56CDC3FF24CEF5D300C19F0A /* FFUniverseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CDC3FE24CEF5D300C19F0A /* FFUniverseObject.swift */; };
+		56CDC40124CEF68200C19F0A /* FFUniverseRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CDC40024CEF68200C19F0A /* FFUniverseRequestModel.swift */; };
+		56D17CA324D3389900D7B61D /* FFMyStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D17CA224D3389900D7B61D /* FFMyStoreViewController.swift */; };
+		56D17CA524D33A8800D7B61D /* FFLanguagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D17CA424D33A8800D7B61D /* FFLanguagesViewController.swift */; };
+		56ED29FD24D31154001F04A6 /* FFILikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ED29FC24D31154001F04A6 /* FFILikeViewController.swift */; };
+		56ED29FF24D336E6001F04A6 /* FFMyFavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ED29FE24D336E6001F04A6 /* FFMyFavouriteViewController.swift */; };
+		56FF979824CAFCE60058044D /* NotConnectedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FF979724CAFCE60058044D /* NotConnectedVC.swift */; };
+		5820888020E3BDBD00DBE0B0 /* FFGetProfileDetailsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5820887F20E3BDBD00DBE0B0 /* FFGetProfileDetailsRequestModel.swift */; };
+		5824A26F20CFCF24003B476B /* FFStepThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5824A26E20CFCF24003B476B /* FFStepThreeViewController.swift */; };
+		582A2BA920E2021E00FCA918 /* FFNotificationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582A2BA820E2021E00FCA918 /* FFNotificationObject.swift */; };
+		582A2BAC20E2033E00FCA918 /* FFNotificationSettingRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582A2BAB20E2033E00FCA918 /* FFNotificationSettingRequestModel.swift */; };
+		582A2BAE20E210DC00FCA918 /* FFPostNotificationRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582A2BAD20E210DC00FCA918 /* FFPostNotificationRequestModel.swift */; };
+		582A2BB020E25FC100FCA918 /* FFNotificationListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582A2BAF20E25FC100FCA918 /* FFNotificationListRequestModel.swift */; };
+		582A2BB220E26B1500FCA918 /* FFNotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582A2BB120E26B1500FCA918 /* FFNotificationTableViewCell.swift */; };
+		5856D69820E1197A00687203 /* FFNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5856D69720E1197A00687203 /* FFNotificationViewController.swift */; };
+		5856D69A20E11F5900687203 /* FFNotificationSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5856D69920E11F5900687203 /* FFNotificationSettingsViewController.swift */; };
+		587BBB8220C7A7C700F7F75E /* FFConfirmPasswordRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587BBB8120C7A7C700F7F75E /* FFConfirmPasswordRequestModel.swift */; };
+		587BBB8420C9549B00F7F75E /* FFStepTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587BBB8320C9549B00F7F75E /* FFStepTwoViewController.swift */; };
+		587BBB8620CA575400F7F75E /* FFSelectPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587BBB8520CA575400F7F75E /* FFSelectPopUpViewController.swift */; };
+		587C131620D0E01D0062053A /* FFImageUploadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587C131520D0E01D0062053A /* FFImageUploadRequest.swift */; };
+		588EE1DC20DB9F9F00AF3188 /* FFAddRecipeBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588EE1DB20DB9F9F00AF3188 /* FFAddRecipeBaseController.swift */; };
+		589163C020CE3B4600924368 /* FFSearchIngredientRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589163BF20CE3B4600924368 /* FFSearchIngredientRequestModel.swift */; };
+		589163C220CE43B400924368 /* FFMeasureObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589163C120CE43B400924368 /* FFMeasureObject.swift */; };
+		589163C420CE55BE00924368 /* FFGetMeasureRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589163C320CE55BE00924368 /* FFGetMeasureRequestModel.swift */; };
+		589163C620CEA55000924368 /* FFStepObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589163C520CEA55000924368 /* FFStepObject.swift */; };
+		58C7C52020EB50EE00537C0F /* FFriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7C51F20EB50EE00537C0F /* FFriendsListViewController.swift */; };
+		58C7C52320EB5CED00537C0F /* FFFriendObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7C52220EB5CED00537C0F /* FFFriendObject.swift */; };
+		58C7C52620EBA78F00537C0F /* FFriendListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7C52520EBA78F00537C0F /* FFriendListRequestModel.swift */; };
+		58C7C52820EC97A500537C0F /* FFAddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7C52720EC97A500537C0F /* FFAddFriendViewController.swift */; };
+		58C7C52A20ECB94800537C0F /* FFAddFriendByEmailRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7C52920ECB94800537C0F /* FFAddFriendByEmailRequestModel.swift */; };
+		58C7C52C20ECC1D500537C0F /* FFAddFriendByNickNameRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7C52B20ECC1D500537C0F /* FFAddFriendByNickNameRequestModel.swift */; };
+		58C823B420D22A4800E6E858 /* FFAddRecipeRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C823B320D22A4800E6E858 /* FFAddRecipeRequestModel.swift */; };
+		58DC7C9B20D7D2FF00506A25 /* FFImageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC7C9A20D7D2FF00506A25 /* FFImageObject.swift */; };
+		58E80BC620D8CA2000016780 /* FFIngredientUploadObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E80BC520D8CA2000016780 /* FFIngredientUploadObject.swift */; };
+		58F617E920E49AE800FCB4E3 /* FFEditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F617E820E49AE800FCB4E3 /* FFEditProfileViewController.swift */; };
+		58F617EB20E4A68E00FCB4E3 /* FFEditProfileRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F617EA20E4A68E00FCB4E3 /* FFEditProfileRequestModel.swift */; };
+		633F4C2E25810F7B00F5FD3B /* FFLikeMultipleInterestRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633F4C2D25810F7B00F5FD3B /* FFLikeMultipleInterestRequestModel.swift */; };
+		633F8D0B258288E700A707E5 /* FFCountriesByLanguageRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633F8D0A258288E700A707E5 /* FFCountriesByLanguageRequestModel.swift */; };
+		633FD3A5256E7A9E00A23313 /* FFEnableNotificationRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FD3A4256E7A9E00A23313 /* FFEnableNotificationRequestModel.swift */; };
+		633FD3A8256E7B1400A23313 /* FFDisableNotificationRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FD3A7256E7B1400A23313 /* FFDisableNotificationRequestModel.swift */; };
+		633FF036258358B40047911B /* FFAddCountriesLanguageRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FF035258358B40047911B /* FFAddCountriesLanguageRequestModel.swift */; };
+		6340F5A12549A1FD007AFD5F /* FFAllRecipesListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340F5A02549A1FD007AFD5F /* FFAllRecipesListRequestModel.swift */; };
+		6342642C25752A4A008C2A91 /* FFFirstPrefernceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6342642B25752A4A008C2A91 /* FFFirstPrefernceViewController.swift */; };
+		6342642F25754636008C2A91 /* FFSecondPrefernceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6342642E25754636008C2A91 /* FFSecondPrefernceViewController.swift */; };
+		6342644B257675AE008C2A91 /* PrefernceCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6342644A257675AE008C2A91 /* PrefernceCollectionReusableView.swift */; };
+		6342644E25768525008C2A91 /* FFThirdPrefernceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6342644D25768525008C2A91 /* FFThirdPrefernceViewController.swift */; };
+		6342646A257766B3008C2A91 /* PrefernceHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63426469257766B3008C2A91 /* PrefernceHeaderReusableView.swift */; };
+		6342646D2577D3E2008C2A91 /* FFFourthPrefernceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6342646C2577D3E2008C2A91 /* FFFourthPrefernceViewController.swift */; };
+		634613DC256D0BF2003DD527 /* EatWellMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634613DB256D0BF2003DD527 /* EatWellMenuViewController.swift */; };
+		634613DF256D417F003DD527 /* FFWhatIlikeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634613DE256D417F003DD527 /* FFWhatIlikeVC.swift */; };
+		6348AE83257F888D006A91B5 /* FFGetExpertiseLevelRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348AE82257F888D006A91B5 /* FFGetExpertiseLevelRequestModel.swift */; };
+		6348AE86257F8A01006A91B5 /* FFExpertiseLevelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348AE85257F8A01006A91B5 /* FFExpertiseLevelObject.swift */; };
+		6348AE89257F9394006A91B5 /* FFAddExpertiseLevelRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348AE88257F9394006A91B5 /* FFAddExpertiseLevelRequestModel.swift */; };
+		634ABA81256397DA00CC2C01 /* Util+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634ABA80256397DA00CC2C01 /* Util+Ext.swift */; };
+		634ABADE2566527500CC2C01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 634ABADD2566527500CC2C01 /* GoogleService-Info.plist */; };
+		635D3E44257E5F7F00442801 /* FFFSixthPrefernceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D3E43257E5F7F00442801 /* FFFSixthPrefernceViewController.swift */; };
+		635D3E47257E68A200442801 /* FFSeventhPrefernceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D3E46257E68A200442801 /* FFSeventhPrefernceViewController.swift */; };
+		635D3E4A257E740300442801 /* FFSelectLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D3E49257E740300442801 /* FFSelectLanguageViewController.swift */; };
+		636983E925791DDA008D97FB /* FFFifthPrefernceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636983E825791DDA008D97FB /* FFFifthPrefernceViewController.swift */; };
+		D5C7712C6E89DF649524B360 /* Pods_FriendsAndFoodApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09592D4CD21162486CFBF811 /* Pods_FriendsAndFoodApp.framework */; };
+		E804A71925054A8D004AC173 /* FFSearchStoreRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E804A71825054A8D004AC173 /* FFSearchStoreRequestModel.swift */; };
+		E80642EF251B615000FF1166 /* FFUserAddressObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80642EE251B615000FF1166 /* FFUserAddressObject.swift */; };
+		E80642F1251B64D200FF1166 /* FFGamificationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80642F0251B64D200FF1166 /* FFGamificationObject.swift */; };
+		E80642F3251BACB000FF1166 /* FFbirthdateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80642F2251BACB000FF1166 /* FFbirthdateObject.swift */; };
+		E80642F6251BAF4500FF1166 /* FFChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80642F5251BAF4500FF1166 /* FFChangePasswordVC.swift */; };
+		E80642F8251BB1F900FF1166 /* FFChangePasswordRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80642F7251BB1F900FF1166 /* FFChangePasswordRequestModel.swift */; };
+		E80642FA251BC64000FF1166 /* FFUpdateAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80642F9251BC64000FF1166 /* FFUpdateAddressVC.swift */; };
+		E8069119250937020018C983 /* FFRecipeTypeRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8069118250937020018C983 /* FFRecipeTypeRequestModel.swift */; };
+		E807B5A12513BAF7003AA049 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E807B5A02513BAF7003AA049 /* Constants.swift */; };
+		E807B5A32513BB34003AA049 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E807B5A22513BB34003AA049 /* Localization.swift */; };
+		E80CA7D125315A950046A0DA /* FFStoreProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80CA7D025315A950046A0DA /* FFStoreProductDetailVC.swift */; };
+		E80D159724FFF60F00904C07 /* FFDaysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80D159624FFF60F00904C07 /* FFDaysModel.swift */; };
+		E80D1599250017B600904C07 /* MyHeaderFooterClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80D1598250017B600904C07 /* MyHeaderFooterClass.swift */; };
+		E810212824FE1F07006FD55B /* FFAddRestaurantRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E810212724FE1F07006FD55B /* FFAddRestaurantRequestModel.swift */; };
+		E810212A24FE2D0A006FD55B /* FFAllInterestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E810212924FE2D0A006FD55B /* FFAllInterestObject.swift */; };
+		E810212C24FE4F2D006FD55B /* FFDeclareOwnerRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E810212B24FE4F2D006FD55B /* FFDeclareOwnerRestaurantViewController.swift */; };
+		E810212E24FE7D56006FD55B /* FFAddRestaurantBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E810212D24FE7D56006FD55B /* FFAddRestaurantBaseController.swift */; };
+		E8123FBA252D5E5200118D4E /* FFHomeRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8123FB9252D5E5200118D4E /* FFHomeRecipeViewController.swift */; };
+		E81294CD2519BA2B005317F1 /* FFUpdateHoursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81294CC2519BA2B005317F1 /* FFUpdateHoursViewController.swift */; };
+		E8131C12251D9CE000E9F70F /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8131C11251D9CE000E9F70F /* UserDefault.swift */; };
+		E8131C14251D9D2000E9F70F /* LanguageObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8131C13251D9D2000E9F70F /* LanguageObservable.swift */; };
+		E8131C16251D9D5A00E9F70F /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8131C15251D9D5A00E9F70F /* Language.swift */; };
+		E814E8C3250365EE001E5445 /* FFDisplayHourModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E814E8C2250365EE001E5445 /* FFDisplayHourModel.swift */; };
+		E81A2ED725138E29005DD9FB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E81A2ED925138E29005DD9FB /* Localizable.strings */; };
+		E82655FC2522F04B00E67092 /* FFMemberProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82655FB2522F04B00E67092 /* FFMemberProfileViewController.swift */; };
+		E82655FE25230B4100E67092 /* FFFollowRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82655FD25230B4100E67092 /* FFFollowRequestModel.swift */; };
+		E826560025237D0600E67092 /* FFUpdateRestStoreDescVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82655FF25237D0600E67092 /* FFUpdateRestStoreDescVC.swift */; };
+		E82F7134252D5C250084A13B /* FFFaqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82F7133252D5C250084A13B /* FFFaqViewController.swift */; };
+		E83C6C23253590100080484E /* FFProfessionalHomeSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C6C22253590100080484E /* FFProfessionalHomeSecondVC.swift */; };
+		E83C6C252535C0840080484E /* FFInviteUserRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C6C242535C0840080484E /* FFInviteUserRequestModel.swift */; };
+		E83C6C272535C4100080484E /* FFProfessionalHomeThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C6C262535C4100080484E /* FFProfessionalHomeThirdVC.swift */; };
+		E83CFB4824FD30D000FC0733 /* FFFunctionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83CFB4724FD30D000FC0733 /* FFFunctionModel.swift */; };
+		E83DCC3625001AD200C83C99 /* OwnerCollectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83DCC3525001AD200C83C99 /* OwnerCollectionHeader.swift */; };
+		E84216D9252B4BCB008845E1 /* FFNonProfessionalHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84216D8252B4BCB008845E1 /* FFNonProfessionalHomeViewController.swift */; };
+		E84640E9251528D4006DC531 /* FFCompanyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84640E8251528D4006DC531 /* FFCompanyObject.swift */; };
+		E84757C6251C497D007E9739 /* FFUpdateAddressRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84757C5251C497D007E9739 /* FFUpdateAddressRequestModel.swift */; };
+		E84757C8251C5276007E9739 /* FFProfessionalInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84757C7251C5276007E9739 /* FFProfessionalInfoVC.swift */; };
+		E84757CA251C55AB007E9739 /* FFUpdateProfessionalInfoRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84757C9251C55AB007E9739 /* FFUpdateProfessionalInfoRequestModel.swift */; };
+		E84757D6251CBB3C007E9739 /* FFAddStoreOwnerRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84757D5251CBB3C007E9739 /* FFAddStoreOwnerRequestModel.swift */; };
+		E847CAED2530C33000A2C25C /* FFProfessionalHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E847CAEC2530C33000A2C25C /* FFProfessionalHomeViewController.swift */; };
+		E8494BA12518E0EE00A587A7 /* FFUpdateGetInTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8494BA02518E0EE00A587A7 /* FFUpdateGetInTouchViewController.swift */; };
+		E84E2D7525303C5A00D5CD2C /* FFLikeStoreRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84E2D7425303C5A00D5CD2C /* FFLikeStoreRequestModel.swift */; };
+		E84E2D7725303C6600D5CD2C /* FFDisLikeStoreRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84E2D7625303C6600D5CD2C /* FFDisLikeStoreRequestModel.swift */; };
+		E86C13A325014E990080F2ED /* FFStoreReviewListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86C13A225014E990080F2ED /* FFStoreReviewListModel.swift */; };
+		E86C13A525014ED00080F2ED /* FFRestaurantReviewListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86C13A425014ED00080F2ED /* FFRestaurantReviewListModel.swift */; };
+		E86C13A725014F3B0080F2ED /* FFRestaurantPostReviewRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86C13A625014F3B0080F2ED /* FFRestaurantPostReviewRequestModel.swift */; };
+		E86C13A925014F7B0080F2ED /* FFStorePostReviewRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86C13A825014F7B0080F2ED /* FFStorePostReviewRequestModel.swift */; };
+		E88C56B52521A053004091E0 /* FollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88C56B42521A053004091E0 /* FollowTableViewCell.swift */; };
+		E88C56B72521A079004091E0 /* FFFollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88C56B62521A079004091E0 /* FFFollowViewController.swift */; };
+		E88C56B92521A304004091E0 /* FFMyFollowListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88C56B82521A304004091E0 /* FFMyFollowListRequestModel.swift */; };
+		E88C56BB2521A419004091E0 /* FFFollowObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88C56BA2521A419004091E0 /* FFFollowObject.swift */; };
+		E891158D24F5495300915C5B /* FFAddRestaurantThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E891158C24F5495300915C5B /* FFAddRestaurantThreeViewController.swift */; };
+		E89246B82534558D00E36E93 /* FFHomeFaqModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89246B72534558D00E36E93 /* FFHomeFaqModel.swift */; };
+		E89246BA2534DA9E00E36E93 /* FFDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89246B92534DA9E00E36E93 /* FFDashboardViewController.swift */; };
+		E896236724EFFC6100A3FFEB /* FFAddRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E896236624EFFC6100A3FFEB /* FFAddRestaurantViewController.swift */; };
+		E896236924F043BB00A3FFEB /* FFAddRestaurantTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E896236824F043BB00A3FFEB /* FFAddRestaurantTwoViewController.swift */; };
+		E8ADAF6A252F600C005CD48F /* FFInvitedByObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ADAF69252F600C005CD48F /* FFInvitedByObject.swift */; };
+		E8B03EA325076A5100F2DE14 /* FFAddMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B03EA225076A5100F2DE14 /* FFAddMenuViewController.swift */; };
+		E8B03EA525076EE200F2DE14 /* FFAddMenuRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B03EA425076EE200F2DE14 /* FFAddMenuRequestModel.swift */; };
+		E8B03EA72507B14500F2DE14 /* FFPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B03EA62507B14500F2DE14 /* FFPreferencesViewController.swift */; };
+		E8B03EA92507BEFF00F2DE14 /* FFDeleteMenuRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B03EA82507BEFF00F2DE14 /* FFDeleteMenuRequestModel.swift */; };
+		E8B03EAB2507E1F300F2DE14 /* FFCurrencyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B03EAA2507E1F300F2DE14 /* FFCurrencyObject.swift */; };
+		E8B03EAD2507EBDF00F2DE14 /* FFFindRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B03EAC2507EBDF00F2DE14 /* FFFindRecipeViewController.swift */; };
+		E8BD5CF324EA87F60078EB67 /* FFResStoreObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD5CF224EA87F60078EB67 /* FFResStoreObject.swift */; };
+		E8C278AF252EE7B5008503BC /* FFStoreProductCategoriesObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C278AE252EE7B5008503BC /* FFStoreProductCategoriesObject.swift */; };
+		E8C278B1252EE818008503BC /* FFStoreProductCategoriesRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C278B0252EE818008503BC /* FFStoreProductCategoriesRequestModel.swift */; };
+		E8C278B3252EEA7D008503BC /* FFStoreProductsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C278B2252EEA7D008503BC /* FFStoreProductsObject.swift */; };
+		E8D2D925252201F500E60D0D /* FFMemberFavouritesRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D2D924252201F500E60D0D /* FFMemberFavouritesRequestModel.swift */; };
+		E8D331A12525D8B8005AE770 /* RecieverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D3319B2525D8B7005AE770 /* RecieverCell.swift */; };
+		E8D331A22525D8B8005AE770 /* TimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D3319C2525D8B7005AE770 /* TimeCell.xib */; };
+		E8D331A32525D8B8005AE770 /* TimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D3319D2525D8B7005AE770 /* TimeCell.swift */; };
+		E8D331A42525D8B8005AE770 /* SenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D3319E2525D8B7005AE770 /* SenderCell.swift */; };
+		E8D331A52525D8B8005AE770 /* RecieverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D3319F2525D8B8005AE770 /* RecieverCell.xib */; };
+		E8D331A62525D8B8005AE770 /* SenderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D331A02525D8B8005AE770 /* SenderCell.xib */; };
+		E8D331A82525DA4F005AE770 /* FFGetMessagesRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D331A72525DA4F005AE770 /* FFGetMessagesRequestModel.swift */; };
+		E8D331AA2525DB5F005AE770 /* FFMessageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D331A92525DB5F005AE770 /* FFMessageObject.swift */; };
+		E8D331AC2525DFAC005AE770 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D331AB2525DFAC005AE770 /* UIView+Ext.swift */; };
+		E8D331AE2525E9B5005AE770 /* FFSendMessageRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D331AD2525E9B5005AE770 /* FFSendMessageRequestModel.swift */; };
+		E8D8386C24F7CD09005CA50B /* FFSpecialDietObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D8386B24F7CD09005CA50B /* FFSpecialDietObject.swift */; };
+		E8DA91B2250CF4FB003CF88A /* FFContactUsNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA91B1250CF4FB003CF88A /* FFContactUsNewViewController.swift */; };
+		E8DA91B4250CF981003CF88A /* FFPostContactRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA91B3250CF981003CF88A /* FFPostContactRequestModel.swift */; };
+		E8ECCEC2250A0B740082044D /* FFAddOwnerDetailsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ECCEC1250A0B740082044D /* FFAddOwnerDetailsRequestModel.swift */; };
+		E8F602F32508EE850025C37D /* FFSearchRecipeRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F602F22508EE850025C37D /* FFSearchRecipeRequestModel.swift */; };
+		E8FC4455250229B700ECF2E9 /* FFAddStoreStepOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FC4454250229B700ECF2E9 /* FFAddStoreStepOneVC.swift */; };
+		E8FC4457250229C900ECF2E9 /* FFAddStoreStepTwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FC4456250229C900ECF2E9 /* FFAddStoreStepTwoVC.swift */; };
+		E8FC4459250229D900ECF2E9 /* FFAddStoreStepThreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FC4458250229D900ECF2E9 /* FFAddStoreStepThreeVC.swift */; };
+		E8FC445B250246BA00ECF2E9 /* FFSuggestStorePostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FC445A250246BA00ECF2E9 /* FFSuggestStorePostModel.swift */; };
+		E8FC445D2502472400ECF2E9 /* FFSuggestStoreBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FC445C2502472400ECF2E9 /* FFSuggestStoreBaseController.swift */; };
+		EE1ABD3F2108855000009934 /* FFRestaurantActivityCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1ABD3E2108855000009934 /* FFRestaurantActivityCellTableViewCell.swift */; };
+		EE1B526C20EE29910044259D /* FFCancelFriendRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1B526B20EE29910044259D /* FFCancelFriendRequestModel.swift */; };
+		EE1B526E20EE45470044259D /* FFAcceptFriendRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1B526D20EE45470044259D /* FFAcceptFriendRequestModel.swift */; };
+		EE1B527020EE4D600044259D /* FFRejectFriendRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1B526F20EE4D600044259D /* FFRejectFriendRequest.swift */; };
+		EE1B527220EE57C80044259D /* FFBlockFriendRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1B527120EE57C80044259D /* FFBlockFriendRequestModel.swift */; };
+		EE245F9420F4EEBC001BE736 /* FFNicknameSearchRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE245F9320F4EEBC001BE736 /* FFNicknameSearchRequestModel.swift */; };
+		EE52CAAB2111D430001D47CC /* FFContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE52CAAA2111D430001D47CC /* FFContactUsViewController.swift */; };
+		EE620B6E20F7344A005343C9 /* FFCheckFreindRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE620B6D20F7344A005343C9 /* FFCheckFreindRequestModel.swift */; };
+		EE620B7020F7C097005343C9 /* FFChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE620B6F20F7C097005343C9 /* FFChatViewController.swift */; };
+		EE7932EC2100603A00CE6D6C /* FFRestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7932EB2100603A00CE6D6C /* FFRestaurantListViewController.swift */; };
+		EE7932EE210063AF00CE6D6C /* FFRestaurantObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7932ED210063AF00CE6D6C /* FFRestaurantObject.swift */; };
+		EE7932F12100670400CE6D6C /* FFRestaursntListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7932F02100670400CE6D6C /* FFRestaursntListRequestModel.swift */; };
+		EE79C0A720FE003E000BB2E0 /* FFRestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE79C0A620FE003E000BB2E0 /* FFRestaurantDetailViewController.swift */; };
+		EE7C6BC220F6003D00F62D8C /* FFMessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7C6BC120F6003D00F62D8C /* FFMessagingViewController.swift */; };
+		EE880E442106E5A000D6651F /* FFLikeRestaurantRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE880E432106E5A000D6651F /* FFLikeRestaurantRequestModel.swift */; };
+		EE880E462106E5B300D6651F /* FFDislikeRestaurantRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE880E452106E5B300D6651F /* FFDislikeRestaurantRequestModel.swift */; };
+		EE880E48210761B500D6651F /* FFGetRestaurantRecipeRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE880E47210761B500D6651F /* FFGetRestaurantRecipeRequestModel.swift */; };
+		EE880E4A210761C800D6651F /* FFGetRestaurantActivityRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE880E49210761C800D6651F /* FFGetRestaurantActivityRequestModel.swift */; };
+		EE888D2E211072AA0098DF76 /* FFRestaurantDetailRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE888D2D211072AA0098DF76 /* FFRestaurantDetailRequestModel.swift */; };
+		EE96E69B21099A350052FBED /* FFFindRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE96E69A21099A350052FBED /* FFFindRestaurantViewController.swift */; };
+		EE96E69D2109A1550052FBED /* FFGetFavRestaurantListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE96E69C2109A1550052FBED /* FFGetFavRestaurantListRequestModel.swift */; };
+		EE96E69F2109B8560052FBED /* FFGetCountriesRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE96E69E2109B8560052FBED /* FFGetCountriesRequestModel.swift */; };
+		EE96E6A12109B8F10052FBED /* FFPlaceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE96E6A02109B8F10052FBED /* FFPlaceObject.swift */; };
+		EE96E6A32109BCDA0052FBED /* FFGetRegionsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE96E6A22109BCDA0052FBED /* FFGetRegionsRequestModel.swift */; };
+		EE96E6A52109BE520052FBED /* FFGetCitiesRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE96E6A42109BE520052FBED /* FFGetCitiesRequestModel.swift */; };
+		EE96E6A72109C23E0052FBED /* FFSearchRestaurantsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE96E6A62109C23E0052FBED /* FFSearchRestaurantsRequestModel.swift */; };
+		EE9981DF211C6F8F006E3287 /* FFDeleteRecipeRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9981DE211C6F8F006E3287 /* FFDeleteRecipeRequestModel.swift */; };
+		EE9981E1211C88BF006E3287 /* FFRestaurantSubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9981E0211C88BF006E3287 /* FFRestaurantSubscribeViewController.swift */; };
+		EE9981E3211C9447006E3287 /* FFRestaurantSubscribeRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9981E2211C9447006E3287 /* FFRestaurantSubscribeRequestModel.swift */; };
+		FD203C0320B53043006CA49D /* FFMyFavRecipeListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203C0220B53043006CA49D /* FFMyFavRecipeListRequestModel.swift */; };
+		FD203C0520B54728006CA49D /* FFNutritionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203C0420B54728006CA49D /* FFNutritionObject.swift */; };
+		FD203C0720B55C0E006CA49D /* FFLikeRecipeRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203C0620B55C0E006CA49D /* FFLikeRecipeRequestModel.swift */; };
+		FD203C0920B58635006CA49D /* FFDislikeRecipeRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD203C0820B58635006CA49D /* FFDislikeRecipeRequestModel.swift */; };
+		FD2CB2CE20AECB8D00613CBC /* FFEatWellRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2CB2CD20AECB8D00613CBC /* FFEatWellRecipeViewController.swift */; };
+		FD2CB2D020AEE30700613CBC /* FFReviewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2CB2CF20AEE30700613CBC /* FFReviewObject.swift */; };
+		FD2CB2D220AEE3B800613CBC /* FFReviewListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2CB2D120AEE3B800613CBC /* FFReviewListRequestModel.swift */; };
+		FD39531C20AD5ECE004E3B1B /* FFRecipeListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD39531B20AD5ECE004E3B1B /* FFRecipeListRequestModel.swift */; };
+		FD39531E20ADA879004E3B1B /* FFRecipeDetailRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD39531D20ADA879004E3B1B /* FFRecipeDetailRequestModel.swift */; };
+		FD3D356520B7E9CE00EB0856 /* FFReviewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D356420B7E9CE00EB0856 /* FFReviewListViewController.swift */; };
+		FD438EA320B3DBB6006FFE53 /* FFMyRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD438EA220B3DBB6006FFE53 /* FFMyRecipesViewController.swift */; };
+		FD438EA520B3E6F3006FFE53 /* FFMyRecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD438EA420B3E6F3006FFE53 /* FFMyRecipeTableViewCell.swift */; };
+		FD438EA820B3F4A3006FFE53 /* FFMyRecipesListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD438EA720B3F4A3006FFE53 /* FFMyRecipesListRequestModel.swift */; };
+		FD438EAA20B43934006FFE53 /* FFMyFavoriteRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD438EA920B43934006FFE53 /* FFMyFavoriteRecipesViewController.swift */; };
+		FD4C063E20BBF2EE00DB8297 /* FFMyIngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C063D20BBF2EE00DB8297 /* FFMyIngredientsViewController.swift */; };
+		FD4C064120BBFA4500DB8297 /* FFMyIngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C064020BBFA4500DB8297 /* FFMyIngredientTableViewCell.swift */; };
+		FD4C064320BC04D500DB8297 /* FFMyIngredientRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C064220BC04D500DB8297 /* FFMyIngredientRequestModel.swift */; };
+		FD4C064520BC10C400DB8297 /* FFLikeIngredientRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C064420BC10C400DB8297 /* FFLikeIngredientRequestModel.swift */; };
+		FD4C064720BC1F3800DB8297 /* FFDislikeIngredientRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C064620BC1F3800DB8297 /* FFDislikeIngredientRequestModel.swift */; };
+		FD4C064C20BC329400DB8297 /* FFMyCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C064B20BC329400DB8297 /* FFMyCategoriesViewController.swift */; };
+		FD4C064F20BC32B500DB8297 /* FFMyCategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C064E20BC32B500DB8297 /* FFMyCategoriesTableViewCell.swift */; };
+		FD50CAB1209C1990009DE321 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50CAB0209C1990009DE321 /* UIImage+Gif.swift */; };
+		FD50CAB3209C1E71009DE321 /* FFTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50CAB2209C1E71009DE321 /* FFTabViewController.swift */; };
+		FD50CAB5209C28F9009DE321 /* FFAtTheMomentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50CAB4209C28F9009DE321 /* FFAtTheMomentListViewController.swift */; };
+		FD50CAB7209C2A3B009DE321 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50CAB6209C2A3B009DE321 /* UIColor+Additions.swift */; };
+		FD50CAC9209C7D27009DE321 /* FFEntranceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50CAC8209C7D27009DE321 /* FFEntranceListViewController.swift */; };
+		FD50CACC209C8116009DE321 /* FFEntranceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50CACB209C8116009DE321 /* FFEntranceCollectionViewCell.swift */; };
+		FD50CACE209C850B009DE321 /* FFLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50CACD209C850B009DE321 /* FFLaunchViewController.swift */; };
+		FD50CAD0209C8582009DE321 /* loader-ff.gif in Resources */ = {isa = PBXBuildFile; fileRef = FD50CACF209C8582009DE321 /* loader-ff.gif */; };
+		FD57DF6920A0100500D43ECC /* FFLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD57DF6820A0100500D43ECC /* FFLoaderView.swift */; };
+		FD57DF6B20A011B700D43ECC /* FFDishesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD57DF6A20A011B700D43ECC /* FFDishesListViewController.swift */; };
+		FD57DF6D20A011C600D43ECC /* FFDessertsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD57DF6C20A011C600D43ECC /* FFDessertsListViewController.swift */; };
+		FD57DF7120A0180700D43ECC /* FFEntranceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD57DF7020A0180700D43ECC /* FFEntranceObject.swift */; };
+		FD57DF7320A01BF900D43ECC /* FFRecipeTypeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD57DF7220A01BF900D43ECC /* FFRecipeTypeObject.swift */; };
+		FD57DF7520A0758300D43ECC /* FFLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD57DF7420A0758300D43ECC /* FFLoginViewController.swift */; };
+		FD592FFD20C643A700F2D306 /* FFDishDetailRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD592FFC20C643A700F2D306 /* FFDishDetailRequestModel.swift */; };
+		FD592FFF20C643C100F2D306 /* FFIngredientDetailRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD592FFE20C643C100F2D306 /* FFIngredientDetailRequestModel.swift */; };
+		FD59B88D20BD19F20047D37A /* FFMyCategoriesListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59B88C20BD19F20047D37A /* FFMyCategoriesListRequestModel.swift */; };
+		FD59B88F20BD3FBF0047D37A /* FFLikeCategoryRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59B88E20BD3FBF0047D37A /* FFLikeCategoryRequestModel.swift */; };
+		FD59B89120BD3FF00047D37A /* FFDislikeCategoryRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59B89020BD3FF00047D37A /* FFDislikeCategoryRequestModel.swift */; };
+		FD59B89320BD62EF0047D37A /* FFMyInterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59B89220BD62EF0047D37A /* FFMyInterestsViewController.swift */; };
+		FD5EF23220A180F10075239B /* FFLoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EF23120A180F10075239B /* FFLoginRequestModel.swift */; };
+		FD5EF23420A18D900075239B /* FFUserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EF23320A18D900075239B /* FFUserObject.swift */; };
+		FD5EF23620A193CC0075239B /* FFBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EF23520A193CC0075239B /* FFBaseClass.swift */; };
+		FD5EF23820A195DA0075239B /* FFProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EF23720A195DA0075239B /* FFProfileViewController.swift */; };
+		FD5EF23A20A1AEE60075239B /* FFEatWellListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EF23920A1AEE60075239B /* FFEatWellListRequestModel.swift */; };
+		FD5EF23C20A1AF660075239B /* FFEatWellListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EF23B20A1AF660075239B /* FFEatWellListViewController.swift */; };
+		FD60DECE20BE6F5A00C93137 /* FFMyInterestsListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60DECD20BE6F5A00C93137 /* FFMyInterestsListRequestModel.swift */; };
+		FD60DED020BE7EAF00C93137 /* FFMyInterestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60DECF20BE7EAF00C93137 /* FFMyInterestTableViewCell.swift */; };
+		FD60DED220BEB0BB00C93137 /* FFRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60DED120BEB0BB00C93137 /* FFRegistrationViewController.swift */; };
+		FD62536120BFC23B00EF7E5F /* FFRegisterRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62536020BFC23B00EF7E5F /* FFRegisterRequestModel.swift */; };
+		FD62536420BFE9DB00EF7E5F /* FFLostPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62536320BFE9DB00EF7E5F /* FFLostPasswordViewController.swift */; };
+		FD66B32220C10AD30065F749 /* FFLikeInterestRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66B32120C10AD30065F749 /* FFLikeInterestRequestModel.swift */; };
+		FD66B32420C10F670065F749 /* FFDislikeInterestRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66B32320C10F670065F749 /* FFDislikeInterestRequestModel.swift */; };
+		FD66B32A20C11D700065F749 /* FFRetrievePasswordRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66B32920C11D700065F749 /* FFRetrievePasswordRequestModel.swift */; };
+		FD66B32C20C149A70065F749 /* FFValidateCodeRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66B32B20C149A70065F749 /* FFValidateCodeRequestModel.swift */; };
+		FD75E72920A2ADBF006D821E /* FFEatWellDetailRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75E72820A2ADBF006D821E /* FFEatWellDetailRequestModel.swift */; };
+		FD75E72E20A2BA45006D821E /* FFThematicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75E72D20A2BA45006D821E /* FFThematicViewController.swift */; };
+		FD75E73120A2BC82006D821E /* FFThematicDishesTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75E73020A2BC82006D821E /* FFThematicDishesTypeViewController.swift */; };
+		FD75E73320A2F0EA006D821E /* FFThematicIngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75E73220A2F0EA006D821E /* FFThematicIngredientsViewController.swift */; };
+		FD75E73520A2F355006D821E /* FFDishesListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75E73420A2F355006D821E /* FFDishesListRequestModel.swift */; };
+		FD75E73720A2F67E006D821E /* FFIngredientsListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75E73620A2F67E006D821E /* FFIngredientsListRequestModel.swift */; };
+		FD75E73920A30A8D006D821E /* FFDishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75E73820A30A8D006D821E /* FFDishTableViewCell.swift */; };
+		FD7950F920A5542500F2F2A5 /* FFThematicIngredientsInnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7950F820A5542500F2F2A5 /* FFThematicIngredientsInnerViewController.swift */; };
+		FD7950FB20A5592E00F2F2A5 /* FFIngredientsInnerListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7950FA20A5592E00F2F2A5 /* FFIngredientsInnerListRequestModel.swift */; };
+		FD7D96B820B28B0A00BDC837 /* FFReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D96B720B28B0A00BDC837 /* FFReviewTableViewCell.swift */; };
+		FD7D96BE20B2CBA400BDC837 /* FFPostReviewRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D96BD20B2CBA400BDC837 /* FFPostReviewRequestModel.swift */; };
+		FDA330DF20A4781100FE1EF9 /* FFMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA330DE20A4781100FE1EF9 /* FFMenuViewController.swift */; };
+		FDAC6FB320C50A3C005AF076 /* FFAddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC6FB220C50A3C005AF076 /* FFAddRecipeViewController.swift */; };
+		FDB7AE4320AAA79700867AFF /* FFCategoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7AE4220AAA79700867AFF /* FFCategoryDetailViewController.swift */; };
+		FDB7AE4520AAE90700867AFF /* FFCategoryDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7AE4420AAE90700867AFF /* FFCategoryDetailTableViewCell.swift */; };
+		FDB7AE4720AB060900867AFF /* FFRecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB7AE4620AB060900867AFF /* FFRecipeDetailViewController.swift */; };
+		FDD314B7209ADB9D00A9E8D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD314B6209ADB9D00A9E8D1 /* AppDelegate.swift */; };
+		FDD314BC209ADB9D00A9E8D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD314BA209ADB9D00A9E8D1 /* Main.storyboard */; };
+		FDD314BE209ADB9E00A9E8D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD314BD209ADB9E00A9E8D1 /* Assets.xcassets */; };
+		FDD314C1209ADB9E00A9E8D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD314BF209ADB9E00A9E8D1 /* LaunchScreen.storyboard */; };
+		FDD314CA209AE8E400A9E8D1 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD314C9209AE8E400A9E8D1 /* BaseAPI.swift */; };
+		FDD314CC209AE91300A9E8D1 /* FFManagerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD314CB209AE91300A9E8D1 /* FFManagerClass.swift */; };
+		FDD314CF209AEE7800A9E8D1 /* FFBaseRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD314CE209AEE7800A9E8D1 /* FFBaseRequestModel.swift */; };
+		FDD314D1209AEE8500A9E8D1 /* FFBaseResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD314D0209AEE8500A9E8D1 /* FFBaseResponseModel.swift */; };
+		FDD314D3209AFB9D00A9E8D1 /* FFResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD314D2209AFB9D00A9E8D1 /* FFResultModel.swift */; };
+		FDD314D5209B151200A9E8D1 /* FFEntranceListRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD314D4209B151200A9E8D1 /* FFEntranceListRequestModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09592D4CD21162486CFBF811 /* Pods_FriendsAndFoodApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendsAndFoodApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56009AE324D3ECEE005A5F6D /* FFLanguageRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLanguageRequestModel.swift; sourceTree = "<group>"; };
+		56009AE524D3F167005A5F6D /* FFLanguageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLanguageObject.swift; sourceTree = "<group>"; };
+		56009AE724D3F2B5005A5F6D /* LanguagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesTableViewCell.swift; sourceTree = "<group>"; };
+		56009AEB24D3FFD9005A5F6D /* FFStoreTypeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStoreTypeObject.swift; sourceTree = "<group>"; };
+		56009AED24D40068005A5F6D /* FFStoreTypeRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStoreTypeRequestModel.swift; sourceTree = "<group>"; };
+		56009AEF24D4013B005A5F6D /* FFStoreTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStoreTypeTableViewCell.swift; sourceTree = "<group>"; };
+		5601616124DDD1DD00212E9C /* FFStoreDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStoreDetailModel.swift; sourceTree = "<group>"; };
+		5609052E24C717BC00EA3FDB /* FFIngredientDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFIngredientDetailController.swift; sourceTree = "<group>"; };
+		5609053024C71A2300EA3FDB /* FFIngredientDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFIngredientDetailTableViewCell.swift; sourceTree = "<group>"; };
+		56157FA324DDBEAE008C021D /* FFRestaurantListCityWiseRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRestaurantListCityWiseRequestModel.swift; sourceTree = "<group>"; };
+		56157FA524DDBF81008C021D /* FFStoreListCityWiseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStoreListCityWiseModel.swift; sourceTree = "<group>"; };
+		56157FA724DDC07E008C021D /* FFStoreDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStoreDetailViewController.swift; sourceTree = "<group>"; };
+		561BBF8724C7E402006E47AC /* FFSeasonObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSeasonObject.swift; sourceTree = "<group>"; };
+		561BBF8924C7E706006E47AC /* FFSeasonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSeasonModel.swift; sourceTree = "<group>"; };
+		561BBF8B24C7EA67006E47AC /* FFFaqModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFaqModel.swift; sourceTree = "<group>"; };
+		561BBF8D24C7EB99006E47AC /* FFFaqObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFaqObject.swift; sourceTree = "<group>"; };
+		561BBF8F24C7FE0E006E47AC /* FFNutritionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNutritionModel.swift; sourceTree = "<group>"; };
+		562020FD24DC345200B626B4 /* FFStoreListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStoreListingViewController.swift; sourceTree = "<group>"; };
+		562020FF24DC398200B626B4 /* FFStoreObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStoreObject.swift; sourceTree = "<group>"; };
+		5620210124DC404600B626B4 /* FFStoreListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStoreListModel.swift; sourceTree = "<group>"; };
+		562C78AD24D457A000E3530C /* FFIngrVarietyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFIngrVarietyObject.swift; sourceTree = "<group>"; };
+		562C78AF24D4583600E3530C /* FFIngreVarietyRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFIngreVarietyRequestModel.swift; sourceTree = "<group>"; };
+		566DEFA324D948C500F44CD6 /* FFRestaurantMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRestaurantMenuModel.swift; sourceTree = "<group>"; };
+		566DEFA524D9494600F44CD6 /* FFRestaurantMenuObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRestaurantMenuObject.swift; sourceTree = "<group>"; };
+		566DEFA724D94A2300F44CD6 /* FFRestMenuObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRestMenuObject.swift; sourceTree = "<group>"; };
+		566DEFA924D98E0800F44CD6 /* FFMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMenuTableViewCell.swift; sourceTree = "<group>"; };
+		56CDC3FE24CEF5D300C19F0A /* FFUniverseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFUniverseObject.swift; sourceTree = "<group>"; };
+		56CDC40024CEF68200C19F0A /* FFUniverseRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFUniverseRequestModel.swift; sourceTree = "<group>"; };
+		56D17CA224D3389900D7B61D /* FFMyStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyStoreViewController.swift; sourceTree = "<group>"; };
+		56D17CA424D33A8800D7B61D /* FFLanguagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLanguagesViewController.swift; sourceTree = "<group>"; };
+		56ED29FC24D31154001F04A6 /* FFILikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFILikeViewController.swift; sourceTree = "<group>"; };
+		56ED29FE24D336E6001F04A6 /* FFMyFavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyFavouriteViewController.swift; sourceTree = "<group>"; };
+		56FF979724CAFCE60058044D /* NotConnectedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotConnectedVC.swift; sourceTree = "<group>"; };
+		5820887F20E3BDBD00DBE0B0 /* FFGetProfileDetailsRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGetProfileDetailsRequestModel.swift; sourceTree = "<group>"; };
+		5824A26E20CFCF24003B476B /* FFStepThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStepThreeViewController.swift; sourceTree = "<group>"; };
+		582A2BA820E2021E00FCA918 /* FFNotificationObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNotificationObject.swift; sourceTree = "<group>"; };
+		582A2BAB20E2033E00FCA918 /* FFNotificationSettingRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNotificationSettingRequestModel.swift; sourceTree = "<group>"; };
+		582A2BAD20E210DC00FCA918 /* FFPostNotificationRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPostNotificationRequestModel.swift; sourceTree = "<group>"; };
+		582A2BAF20E25FC100FCA918 /* FFNotificationListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNotificationListRequestModel.swift; sourceTree = "<group>"; };
+		582A2BB120E26B1500FCA918 /* FFNotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNotificationTableViewCell.swift; sourceTree = "<group>"; };
+		5856D69720E1197A00687203 /* FFNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNotificationViewController.swift; sourceTree = "<group>"; };
+		5856D69920E11F5900687203 /* FFNotificationSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNotificationSettingsViewController.swift; sourceTree = "<group>"; };
+		587BBB8120C7A7C700F7F75E /* FFConfirmPasswordRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFConfirmPasswordRequestModel.swift; sourceTree = "<group>"; };
+		587BBB8320C9549B00F7F75E /* FFStepTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStepTwoViewController.swift; sourceTree = "<group>"; };
+		587BBB8520CA575400F7F75E /* FFSelectPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSelectPopUpViewController.swift; sourceTree = "<group>"; };
+		587C131520D0E01D0062053A /* FFImageUploadRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageUploadRequest.swift; sourceTree = "<group>"; };
+		588EE1DB20DB9F9F00AF3188 /* FFAddRecipeBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFAddRecipeBaseController.swift; sourceTree = "<group>"; };
+		589163BF20CE3B4600924368 /* FFSearchIngredientRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSearchIngredientRequestModel.swift; sourceTree = "<group>"; };
+		589163C120CE43B400924368 /* FFMeasureObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMeasureObject.swift; sourceTree = "<group>"; };
+		589163C320CE55BE00924368 /* FFGetMeasureRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGetMeasureRequestModel.swift; sourceTree = "<group>"; };
+		589163C520CEA55000924368 /* FFStepObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStepObject.swift; sourceTree = "<group>"; };
+		58C7C51F20EB50EE00537C0F /* FFriendsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFriendsListViewController.swift; sourceTree = "<group>"; };
+		58C7C52220EB5CED00537C0F /* FFFriendObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFriendObject.swift; sourceTree = "<group>"; };
+		58C7C52520EBA78F00537C0F /* FFriendListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFriendListRequestModel.swift; sourceTree = "<group>"; };
+		58C7C52720EC97A500537C0F /* FFAddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddFriendViewController.swift; sourceTree = "<group>"; };
+		58C7C52920ECB94800537C0F /* FFAddFriendByEmailRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddFriendByEmailRequestModel.swift; sourceTree = "<group>"; };
+		58C7C52B20ECC1D500537C0F /* FFAddFriendByNickNameRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddFriendByNickNameRequestModel.swift; sourceTree = "<group>"; };
+		58C823B320D22A4800E6E858 /* FFAddRecipeRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddRecipeRequestModel.swift; sourceTree = "<group>"; };
+		58DC7C9A20D7D2FF00506A25 /* FFImageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageObject.swift; sourceTree = "<group>"; };
+		58E80BC520D8CA2000016780 /* FFIngredientUploadObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFIngredientUploadObject.swift; sourceTree = "<group>"; };
+		58F617E820E49AE800FCB4E3 /* FFEditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFEditProfileViewController.swift; sourceTree = "<group>"; };
+		58F617EA20E4A68E00FCB4E3 /* FFEditProfileRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFEditProfileRequestModel.swift; sourceTree = "<group>"; };
+		633F30F925483A900060E653 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		633F30FA25483A920060E653 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		633F30FB25483A950060E653 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		633F30FC25483A980060E653 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		633F4C2D25810F7B00F5FD3B /* FFLikeMultipleInterestRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLikeMultipleInterestRequestModel.swift; sourceTree = "<group>"; };
+		633F8D0A258288E700A707E5 /* FFCountriesByLanguageRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCountriesByLanguageRequestModel.swift; sourceTree = "<group>"; };
+		633FD3A4256E7A9E00A23313 /* FFEnableNotificationRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFEnableNotificationRequestModel.swift; sourceTree = "<group>"; };
+		633FD3A7256E7B1400A23313 /* FFDisableNotificationRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDisableNotificationRequestModel.swift; sourceTree = "<group>"; };
+		633FF035258358B40047911B /* FFAddCountriesLanguageRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddCountriesLanguageRequestModel.swift; sourceTree = "<group>"; };
+		6340F5A02549A1FD007AFD5F /* FFAllRecipesListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAllRecipesListRequestModel.swift; sourceTree = "<group>"; };
+		6342642B25752A4A008C2A91 /* FFFirstPrefernceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFirstPrefernceViewController.swift; sourceTree = "<group>"; };
+		6342642E25754636008C2A91 /* FFSecondPrefernceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSecondPrefernceViewController.swift; sourceTree = "<group>"; };
+		6342644A257675AE008C2A91 /* PrefernceCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefernceCollectionReusableView.swift; sourceTree = "<group>"; };
+		6342644D25768525008C2A91 /* FFThirdPrefernceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFThirdPrefernceViewController.swift; sourceTree = "<group>"; };
+		63426469257766B3008C2A91 /* PrefernceHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefernceHeaderReusableView.swift; sourceTree = "<group>"; };
+		6342646C2577D3E2008C2A91 /* FFFourthPrefernceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFourthPrefernceViewController.swift; sourceTree = "<group>"; };
+		634613DB256D0BF2003DD527 /* EatWellMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatWellMenuViewController.swift; sourceTree = "<group>"; };
+		634613DE256D417F003DD527 /* FFWhatIlikeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFWhatIlikeVC.swift; sourceTree = "<group>"; };
+		6348AE82257F888D006A91B5 /* FFGetExpertiseLevelRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGetExpertiseLevelRequestModel.swift; sourceTree = "<group>"; };
+		6348AE85257F8A01006A91B5 /* FFExpertiseLevelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFExpertiseLevelObject.swift; sourceTree = "<group>"; };
+		6348AE88257F9394006A91B5 /* FFAddExpertiseLevelRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddExpertiseLevelRequestModel.swift; sourceTree = "<group>"; };
+		634ABA80256397DA00CC2C01 /* Util+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Util+Ext.swift"; sourceTree = "<group>"; };
+		634ABADD2566527500CC2C01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		635D3E43257E5F7F00442801 /* FFFSixthPrefernceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFSixthPrefernceViewController.swift; sourceTree = "<group>"; };
+		635D3E46257E68A200442801 /* FFSeventhPrefernceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSeventhPrefernceViewController.swift; sourceTree = "<group>"; };
+		635D3E49257E740300442801 /* FFSelectLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSelectLanguageViewController.swift; sourceTree = "<group>"; };
+		636983E825791DDA008D97FB /* FFFifthPrefernceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFifthPrefernceViewController.swift; sourceTree = "<group>"; };
+		AB720A8E230F09F04D8DFBED /* Pods-FriendsAndFoodApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsAndFoodApp.debug.xcconfig"; path = "Target Support Files/Pods-FriendsAndFoodApp/Pods-FriendsAndFoodApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D8A59307482D46FC1E46257B /* Pods-FriendsAndFoodApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsAndFoodApp.release.xcconfig"; path = "Target Support Files/Pods-FriendsAndFoodApp/Pods-FriendsAndFoodApp.release.xcconfig"; sourceTree = "<group>"; };
+		E804A71825054A8D004AC173 /* FFSearchStoreRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSearchStoreRequestModel.swift; sourceTree = "<group>"; };
+		E80642EE251B615000FF1166 /* FFUserAddressObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFUserAddressObject.swift; sourceTree = "<group>"; };
+		E80642F0251B64D200FF1166 /* FFGamificationObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGamificationObject.swift; sourceTree = "<group>"; };
+		E80642F2251BACB000FF1166 /* FFbirthdateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFbirthdateObject.swift; sourceTree = "<group>"; };
+		E80642F5251BAF4500FF1166 /* FFChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFChangePasswordVC.swift; sourceTree = "<group>"; };
+		E80642F7251BB1F900FF1166 /* FFChangePasswordRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFChangePasswordRequestModel.swift; sourceTree = "<group>"; };
+		E80642F9251BC64000FF1166 /* FFUpdateAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFUpdateAddressVC.swift; sourceTree = "<group>"; };
+		E8069118250937020018C983 /* FFRecipeTypeRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRecipeTypeRequestModel.swift; sourceTree = "<group>"; };
+		E807B5A02513BAF7003AA049 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E807B5A22513BB34003AA049 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		E80CA7D025315A950046A0DA /* FFStoreProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStoreProductDetailVC.swift; sourceTree = "<group>"; };
+		E80D159624FFF60F00904C07 /* FFDaysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDaysModel.swift; sourceTree = "<group>"; };
+		E80D1598250017B600904C07 /* MyHeaderFooterClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeaderFooterClass.swift; sourceTree = "<group>"; };
+		E810212724FE1F07006FD55B /* FFAddRestaurantRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddRestaurantRequestModel.swift; sourceTree = "<group>"; };
+		E810212924FE2D0A006FD55B /* FFAllInterestObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAllInterestObject.swift; sourceTree = "<group>"; };
+		E810212B24FE4F2D006FD55B /* FFDeclareOwnerRestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDeclareOwnerRestaurantViewController.swift; sourceTree = "<group>"; };
+		E810212D24FE7D56006FD55B /* FFAddRestaurantBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddRestaurantBaseController.swift; sourceTree = "<group>"; };
+		E8123FB9252D5E5200118D4E /* FFHomeRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFHomeRecipeViewController.swift; sourceTree = "<group>"; };
+		E81294CC2519BA2B005317F1 /* FFUpdateHoursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFUpdateHoursViewController.swift; sourceTree = "<group>"; };
+		E8131C11251D9CE000E9F70F /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		E8131C13251D9D2000E9F70F /* LanguageObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageObservable.swift; sourceTree = "<group>"; };
+		E8131C15251D9D5A00E9F70F /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		E814E8C2250365EE001E5445 /* FFDisplayHourModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDisplayHourModel.swift; sourceTree = "<group>"; };
+		E81A2ED825138E29005DD9FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E82655FB2522F04B00E67092 /* FFMemberProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMemberProfileViewController.swift; sourceTree = "<group>"; };
+		E82655FD25230B4100E67092 /* FFFollowRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFollowRequestModel.swift; sourceTree = "<group>"; };
+		E82655FF25237D0600E67092 /* FFUpdateRestStoreDescVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFUpdateRestStoreDescVC.swift; sourceTree = "<group>"; };
+		E82F7133252D5C250084A13B /* FFFaqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFaqViewController.swift; sourceTree = "<group>"; };
+		E83C6C22253590100080484E /* FFProfessionalHomeSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFProfessionalHomeSecondVC.swift; sourceTree = "<group>"; };
+		E83C6C242535C0840080484E /* FFInviteUserRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFInviteUserRequestModel.swift; sourceTree = "<group>"; };
+		E83C6C262535C4100080484E /* FFProfessionalHomeThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFProfessionalHomeThirdVC.swift; sourceTree = "<group>"; };
+		E83CFB4724FD30D000FC0733 /* FFFunctionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFunctionModel.swift; sourceTree = "<group>"; };
+		E83DCC3525001AD200C83C99 /* OwnerCollectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerCollectionHeader.swift; sourceTree = "<group>"; };
+		E84216D8252B4BCB008845E1 /* FFNonProfessionalHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNonProfessionalHomeViewController.swift; sourceTree = "<group>"; };
+		E84640E8251528D4006DC531 /* FFCompanyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCompanyObject.swift; sourceTree = "<group>"; };
+		E84757C5251C497D007E9739 /* FFUpdateAddressRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFUpdateAddressRequestModel.swift; sourceTree = "<group>"; };
+		E84757C7251C5276007E9739 /* FFProfessionalInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFProfessionalInfoVC.swift; sourceTree = "<group>"; };
+		E84757C9251C55AB007E9739 /* FFUpdateProfessionalInfoRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFUpdateProfessionalInfoRequestModel.swift; sourceTree = "<group>"; };
+		E84757D5251CBB3C007E9739 /* FFAddStoreOwnerRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddStoreOwnerRequestModel.swift; sourceTree = "<group>"; };
+		E847CAEC2530C33000A2C25C /* FFProfessionalHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFProfessionalHomeViewController.swift; sourceTree = "<group>"; };
+		E8494BA02518E0EE00A587A7 /* FFUpdateGetInTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFUpdateGetInTouchViewController.swift; sourceTree = "<group>"; };
+		E84E2D7425303C5A00D5CD2C /* FFLikeStoreRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLikeStoreRequestModel.swift; sourceTree = "<group>"; };
+		E84E2D7625303C6600D5CD2C /* FFDisLikeStoreRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDisLikeStoreRequestModel.swift; sourceTree = "<group>"; };
+		E84F6A1E2511D7D000C5682E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		E84F6A1F2511D7D000C5682E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E84F6A202511D7DA00C5682E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		E84F6A212511D7DA00C5682E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E84F6A222511D7E100C5682E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		E84F6A232511D7E100C5682E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E84F6A242511D7ED00C5682E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		E84F6A252511D7ED00C5682E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E84F6A272511D9A700C5682E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		E86C13A225014E990080F2ED /* FFStoreReviewListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStoreReviewListModel.swift; sourceTree = "<group>"; };
+		E86C13A425014ED00080F2ED /* FFRestaurantReviewListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRestaurantReviewListModel.swift; sourceTree = "<group>"; };
+		E86C13A625014F3B0080F2ED /* FFRestaurantPostReviewRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRestaurantPostReviewRequestModel.swift; sourceTree = "<group>"; };
+		E86C13A825014F7B0080F2ED /* FFStorePostReviewRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStorePostReviewRequestModel.swift; sourceTree = "<group>"; };
+		E88C56B42521A053004091E0 /* FollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowTableViewCell.swift; sourceTree = "<group>"; };
+		E88C56B62521A079004091E0 /* FFFollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFollowViewController.swift; sourceTree = "<group>"; };
+		E88C56B82521A304004091E0 /* FFMyFollowListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyFollowListRequestModel.swift; sourceTree = "<group>"; };
+		E88C56BA2521A419004091E0 /* FFFollowObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFollowObject.swift; sourceTree = "<group>"; };
+		E891158C24F5495300915C5B /* FFAddRestaurantThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddRestaurantThreeViewController.swift; sourceTree = "<group>"; };
+		E89246B72534558D00E36E93 /* FFHomeFaqModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFHomeFaqModel.swift; sourceTree = "<group>"; };
+		E89246B92534DA9E00E36E93 /* FFDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDashboardViewController.swift; sourceTree = "<group>"; };
+		E896236624EFFC6100A3FFEB /* FFAddRestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddRestaurantViewController.swift; sourceTree = "<group>"; };
+		E896236824F043BB00A3FFEB /* FFAddRestaurantTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddRestaurantTwoViewController.swift; sourceTree = "<group>"; };
+		E8ADAF69252F600C005CD48F /* FFInvitedByObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFInvitedByObject.swift; sourceTree = "<group>"; };
+		E8B03EA225076A5100F2DE14 /* FFAddMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddMenuViewController.swift; sourceTree = "<group>"; };
+		E8B03EA425076EE200F2DE14 /* FFAddMenuRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddMenuRequestModel.swift; sourceTree = "<group>"; };
+		E8B03EA62507B14500F2DE14 /* FFPreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPreferencesViewController.swift; sourceTree = "<group>"; };
+		E8B03EA82507BEFF00F2DE14 /* FFDeleteMenuRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDeleteMenuRequestModel.swift; sourceTree = "<group>"; };
+		E8B03EAA2507E1F300F2DE14 /* FFCurrencyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCurrencyObject.swift; sourceTree = "<group>"; };
+		E8B03EAC2507EBDF00F2DE14 /* FFFindRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFindRecipeViewController.swift; sourceTree = "<group>"; };
+		E8BD5CF224EA87F60078EB67 /* FFResStoreObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFResStoreObject.swift; sourceTree = "<group>"; };
+		E8C278AE252EE7B5008503BC /* FFStoreProductCategoriesObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStoreProductCategoriesObject.swift; sourceTree = "<group>"; };
+		E8C278B0252EE818008503BC /* FFStoreProductCategoriesRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStoreProductCategoriesRequestModel.swift; sourceTree = "<group>"; };
+		E8C278B2252EEA7D008503BC /* FFStoreProductsObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStoreProductsObject.swift; sourceTree = "<group>"; };
+		E8D2D924252201F500E60D0D /* FFMemberFavouritesRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMemberFavouritesRequestModel.swift; sourceTree = "<group>"; };
+		E8D3319B2525D8B7005AE770 /* RecieverCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecieverCell.swift; path = "FriendsAndFoodApp/View Controllers/RecieverCell.swift"; sourceTree = SOURCE_ROOT; };
+		E8D3319C2525D8B7005AE770 /* TimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TimeCell.xib; path = "FriendsAndFoodApp/View Controllers/TimeCell.xib"; sourceTree = SOURCE_ROOT; };
+		E8D3319D2525D8B7005AE770 /* TimeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeCell.swift; path = "FriendsAndFoodApp/View Controllers/TimeCell.swift"; sourceTree = SOURCE_ROOT; };
+		E8D3319E2525D8B7005AE770 /* SenderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SenderCell.swift; path = "FriendsAndFoodApp/View Controllers/SenderCell.swift"; sourceTree = SOURCE_ROOT; };
+		E8D3319F2525D8B8005AE770 /* RecieverCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RecieverCell.xib; path = "FriendsAndFoodApp/View Controllers/RecieverCell.xib"; sourceTree = SOURCE_ROOT; };
+		E8D331A02525D8B8005AE770 /* SenderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SenderCell.xib; path = "FriendsAndFoodApp/View Controllers/SenderCell.xib"; sourceTree = SOURCE_ROOT; };
+		E8D331A72525DA4F005AE770 /* FFGetMessagesRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGetMessagesRequestModel.swift; sourceTree = "<group>"; };
+		E8D331A92525DB5F005AE770 /* FFMessageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMessageObject.swift; sourceTree = "<group>"; };
+		E8D331AB2525DFAC005AE770 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		E8D331AD2525E9B5005AE770 /* FFSendMessageRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSendMessageRequestModel.swift; sourceTree = "<group>"; };
+		E8D8386B24F7CD09005CA50B /* FFSpecialDietObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSpecialDietObject.swift; sourceTree = "<group>"; };
+		E8DA91B1250CF4FB003CF88A /* FFContactUsNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFContactUsNewViewController.swift; sourceTree = "<group>"; };
+		E8DA91B3250CF981003CF88A /* FFPostContactRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPostContactRequestModel.swift; sourceTree = "<group>"; };
+		E8ECCEC1250A0B740082044D /* FFAddOwnerDetailsRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddOwnerDetailsRequestModel.swift; sourceTree = "<group>"; };
+		E8F602F22508EE850025C37D /* FFSearchRecipeRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSearchRecipeRequestModel.swift; sourceTree = "<group>"; };
+		E8FC4454250229B700ECF2E9 /* FFAddStoreStepOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddStoreStepOneVC.swift; sourceTree = "<group>"; };
+		E8FC4456250229C900ECF2E9 /* FFAddStoreStepTwoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddStoreStepTwoVC.swift; sourceTree = "<group>"; };
+		E8FC4458250229D900ECF2E9 /* FFAddStoreStepThreeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddStoreStepThreeVC.swift; sourceTree = "<group>"; };
+		E8FC445A250246BA00ECF2E9 /* FFSuggestStorePostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSuggestStorePostModel.swift; sourceTree = "<group>"; };
+		E8FC445C2502472400ECF2E9 /* FFSuggestStoreBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSuggestStoreBaseController.swift; sourceTree = "<group>"; };
+		EE1ABD3E2108855000009934 /* FFRestaurantActivityCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRestaurantActivityCellTableViewCell.swift; sourceTree = "<group>"; };
+		EE1B526B20EE29910044259D /* FFCancelFriendRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCancelFriendRequestModel.swift; sourceTree = "<group>"; };
+		EE1B526D20EE45470044259D /* FFAcceptFriendRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAcceptFriendRequestModel.swift; sourceTree = "<group>"; };
+		EE1B526F20EE4D600044259D /* FFRejectFriendRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRejectFriendRequest.swift; sourceTree = "<group>"; };
+		EE1B527120EE57C80044259D /* FFBlockFriendRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFBlockFriendRequestModel.swift; sourceTree = "<group>"; };
+		EE245F9320F4EEBC001BE736 /* FFNicknameSearchRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNicknameSearchRequestModel.swift; sourceTree = "<group>"; };
+		EE52CAAA2111D430001D47CC /* FFContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFContactUsViewController.swift; sourceTree = "<group>"; };
+		EE620B6D20F7344A005343C9 /* FFCheckFreindRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCheckFreindRequestModel.swift; sourceTree = "<group>"; };
+		EE620B6F20F7C097005343C9 /* FFChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFChatViewController.swift; sourceTree = "<group>"; };
+		EE7932EB2100603A00CE6D6C /* FFRestaurantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRestaurantListViewController.swift; sourceTree = "<group>"; };
+		EE7932ED210063AF00CE6D6C /* FFRestaurantObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRestaurantObject.swift; sourceTree = "<group>"; };
+		EE7932F02100670400CE6D6C /* FFRestaursntListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRestaursntListRequestModel.swift; sourceTree = "<group>"; };
+		EE79C0A620FE003E000BB2E0 /* FFRestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		EE7C6BC120F6003D00F62D8C /* FFMessagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMessagingViewController.swift; sourceTree = "<group>"; };
+		EE880E432106E5A000D6651F /* FFLikeRestaurantRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLikeRestaurantRequestModel.swift; sourceTree = "<group>"; };
+		EE880E452106E5B300D6651F /* FFDislikeRestaurantRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDislikeRestaurantRequestModel.swift; sourceTree = "<group>"; };
+		EE880E47210761B500D6651F /* FFGetRestaurantRecipeRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGetRestaurantRecipeRequestModel.swift; sourceTree = "<group>"; };
+		EE880E49210761C800D6651F /* FFGetRestaurantActivityRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGetRestaurantActivityRequestModel.swift; sourceTree = "<group>"; };
+		EE888D2D211072AA0098DF76 /* FFRestaurantDetailRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRestaurantDetailRequestModel.swift; sourceTree = "<group>"; };
+		EE96E69A21099A350052FBED /* FFFindRestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFindRestaurantViewController.swift; sourceTree = "<group>"; };
+		EE96E69C2109A1550052FBED /* FFGetFavRestaurantListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGetFavRestaurantListRequestModel.swift; sourceTree = "<group>"; };
+		EE96E69E2109B8560052FBED /* FFGetCountriesRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGetCountriesRequestModel.swift; sourceTree = "<group>"; };
+		EE96E6A02109B8F10052FBED /* FFPlaceObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPlaceObject.swift; sourceTree = "<group>"; };
+		EE96E6A22109BCDA0052FBED /* FFGetRegionsRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGetRegionsRequestModel.swift; sourceTree = "<group>"; };
+		EE96E6A42109BE520052FBED /* FFGetCitiesRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGetCitiesRequestModel.swift; sourceTree = "<group>"; };
+		EE96E6A62109C23E0052FBED /* FFSearchRestaurantsRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSearchRestaurantsRequestModel.swift; sourceTree = "<group>"; };
+		EE9981DE211C6F8F006E3287 /* FFDeleteRecipeRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDeleteRecipeRequestModel.swift; sourceTree = "<group>"; };
+		EE9981E0211C88BF006E3287 /* FFRestaurantSubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRestaurantSubscribeViewController.swift; sourceTree = "<group>"; };
+		EE9981E2211C9447006E3287 /* FFRestaurantSubscribeRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRestaurantSubscribeRequestModel.swift; sourceTree = "<group>"; };
+		FD203C0220B53043006CA49D /* FFMyFavRecipeListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyFavRecipeListRequestModel.swift; sourceTree = "<group>"; };
+		FD203C0420B54728006CA49D /* FFNutritionObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNutritionObject.swift; sourceTree = "<group>"; };
+		FD203C0620B55C0E006CA49D /* FFLikeRecipeRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLikeRecipeRequestModel.swift; sourceTree = "<group>"; };
+		FD203C0820B58635006CA49D /* FFDislikeRecipeRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDislikeRecipeRequestModel.swift; sourceTree = "<group>"; };
+		FD2CB2CD20AECB8D00613CBC /* FFEatWellRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFEatWellRecipeViewController.swift; sourceTree = "<group>"; };
+		FD2CB2CF20AEE30700613CBC /* FFReviewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFReviewObject.swift; sourceTree = "<group>"; };
+		FD2CB2D120AEE3B800613CBC /* FFReviewListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFReviewListRequestModel.swift; sourceTree = "<group>"; };
+		FD39531B20AD5ECE004E3B1B /* FFRecipeListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRecipeListRequestModel.swift; sourceTree = "<group>"; };
+		FD39531D20ADA879004E3B1B /* FFRecipeDetailRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRecipeDetailRequestModel.swift; sourceTree = "<group>"; };
+		FD3D356420B7E9CE00EB0856 /* FFReviewListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFReviewListViewController.swift; sourceTree = "<group>"; };
+		FD438EA220B3DBB6006FFE53 /* FFMyRecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyRecipesViewController.swift; sourceTree = "<group>"; };
+		FD438EA420B3E6F3006FFE53 /* FFMyRecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyRecipeTableViewCell.swift; sourceTree = "<group>"; };
+		FD438EA720B3F4A3006FFE53 /* FFMyRecipesListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyRecipesListRequestModel.swift; sourceTree = "<group>"; };
+		FD438EA920B43934006FFE53 /* FFMyFavoriteRecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyFavoriteRecipesViewController.swift; sourceTree = "<group>"; };
+		FD4C063D20BBF2EE00DB8297 /* FFMyIngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyIngredientsViewController.swift; sourceTree = "<group>"; };
+		FD4C064020BBFA4500DB8297 /* FFMyIngredientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyIngredientTableViewCell.swift; sourceTree = "<group>"; };
+		FD4C064220BC04D500DB8297 /* FFMyIngredientRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyIngredientRequestModel.swift; sourceTree = "<group>"; };
+		FD4C064420BC10C400DB8297 /* FFLikeIngredientRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLikeIngredientRequestModel.swift; sourceTree = "<group>"; };
+		FD4C064620BC1F3800DB8297 /* FFDislikeIngredientRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDislikeIngredientRequestModel.swift; sourceTree = "<group>"; };
+		FD4C064B20BC329400DB8297 /* FFMyCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyCategoriesViewController.swift; sourceTree = "<group>"; };
+		FD4C064E20BC32B500DB8297 /* FFMyCategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyCategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		FD50CAB0209C1990009DE321 /* UIImage+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		FD50CAB2209C1E71009DE321 /* FFTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTabViewController.swift; sourceTree = "<group>"; };
+		FD50CAB4209C28F9009DE321 /* FFAtTheMomentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAtTheMomentListViewController.swift; sourceTree = "<group>"; };
+		FD50CAB6209C2A3B009DE321 /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		FD50CAC8209C7D27009DE321 /* FFEntranceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFEntranceListViewController.swift; sourceTree = "<group>"; };
+		FD50CACB209C8116009DE321 /* FFEntranceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFEntranceCollectionViewCell.swift; sourceTree = "<group>"; };
+		FD50CACD209C850B009DE321 /* FFLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLaunchViewController.swift; sourceTree = "<group>"; };
+		FD50CACF209C8582009DE321 /* loader-ff.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "loader-ff.gif"; sourceTree = "<group>"; };
+		FD57DF6820A0100500D43ECC /* FFLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFLoaderView.swift; sourceTree = "<group>"; };
+		FD57DF6A20A011B700D43ECC /* FFDishesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDishesListViewController.swift; sourceTree = "<group>"; };
+		FD57DF6C20A011C600D43ECC /* FFDessertsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDessertsListViewController.swift; sourceTree = "<group>"; };
+		FD57DF7020A0180700D43ECC /* FFEntranceObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFEntranceObject.swift; sourceTree = "<group>"; };
+		FD57DF7220A01BF900D43ECC /* FFRecipeTypeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRecipeTypeObject.swift; sourceTree = "<group>"; };
+		FD57DF7420A0758300D43ECC /* FFLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLoginViewController.swift; sourceTree = "<group>"; };
+		FD592FFC20C643A700F2D306 /* FFDishDetailRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDishDetailRequestModel.swift; sourceTree = "<group>"; };
+		FD592FFE20C643C100F2D306 /* FFIngredientDetailRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFIngredientDetailRequestModel.swift; sourceTree = "<group>"; };
+		FD59B88C20BD19F20047D37A /* FFMyCategoriesListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyCategoriesListRequestModel.swift; sourceTree = "<group>"; };
+		FD59B88E20BD3FBF0047D37A /* FFLikeCategoryRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLikeCategoryRequestModel.swift; sourceTree = "<group>"; };
+		FD59B89020BD3FF00047D37A /* FFDislikeCategoryRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDislikeCategoryRequestModel.swift; sourceTree = "<group>"; };
+		FD59B89220BD62EF0047D37A /* FFMyInterestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyInterestsViewController.swift; sourceTree = "<group>"; };
+		FD5EF23120A180F10075239B /* FFLoginRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLoginRequestModel.swift; sourceTree = "<group>"; };
+		FD5EF23320A18D900075239B /* FFUserObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFUserObject.swift; sourceTree = "<group>"; };
+		FD5EF23520A193CC0075239B /* FFBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFBaseClass.swift; sourceTree = "<group>"; };
+		FD5EF23720A195DA0075239B /* FFProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFProfileViewController.swift; sourceTree = "<group>"; };
+		FD5EF23920A1AEE60075239B /* FFEatWellListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFEatWellListRequestModel.swift; sourceTree = "<group>"; };
+		FD5EF23B20A1AF660075239B /* FFEatWellListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFEatWellListViewController.swift; sourceTree = "<group>"; };
+		FD60DECD20BE6F5A00C93137 /* FFMyInterestsListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyInterestsListRequestModel.swift; sourceTree = "<group>"; };
+		FD60DECF20BE7EAF00C93137 /* FFMyInterestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMyInterestTableViewCell.swift; sourceTree = "<group>"; };
+		FD60DED120BEB0BB00C93137 /* FFRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRegistrationViewController.swift; sourceTree = "<group>"; };
+		FD62536020BFC23B00EF7E5F /* FFRegisterRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRegisterRequestModel.swift; sourceTree = "<group>"; };
+		FD62536320BFE9DB00EF7E5F /* FFLostPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLostPasswordViewController.swift; sourceTree = "<group>"; };
+		FD66B32120C10AD30065F749 /* FFLikeInterestRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLikeInterestRequestModel.swift; sourceTree = "<group>"; };
+		FD66B32320C10F670065F749 /* FFDislikeInterestRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDislikeInterestRequestModel.swift; sourceTree = "<group>"; };
+		FD66B32920C11D700065F749 /* FFRetrievePasswordRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRetrievePasswordRequestModel.swift; sourceTree = "<group>"; };
+		FD66B32B20C149A70065F749 /* FFValidateCodeRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFValidateCodeRequestModel.swift; sourceTree = "<group>"; };
+		FD75E72820A2ADBF006D821E /* FFEatWellDetailRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFEatWellDetailRequestModel.swift; sourceTree = "<group>"; };
+		FD75E72D20A2BA45006D821E /* FFThematicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFThematicViewController.swift; sourceTree = "<group>"; };
+		FD75E73020A2BC82006D821E /* FFThematicDishesTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFThematicDishesTypeViewController.swift; sourceTree = "<group>"; };
+		FD75E73220A2F0EA006D821E /* FFThematicIngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFThematicIngredientsViewController.swift; sourceTree = "<group>"; };
+		FD75E73420A2F355006D821E /* FFDishesListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDishesListRequestModel.swift; sourceTree = "<group>"; };
+		FD75E73620A2F67E006D821E /* FFIngredientsListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFIngredientsListRequestModel.swift; sourceTree = "<group>"; };
+		FD75E73820A30A8D006D821E /* FFDishTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDishTableViewCell.swift; sourceTree = "<group>"; };
+		FD7950F820A5542500F2F2A5 /* FFThematicIngredientsInnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFThematicIngredientsInnerViewController.swift; sourceTree = "<group>"; };
+		FD7950FA20A5592E00F2F2A5 /* FFIngredientsInnerListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFIngredientsInnerListRequestModel.swift; sourceTree = "<group>"; };
+		FD7D96B720B28B0A00BDC837 /* FFReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFReviewTableViewCell.swift; sourceTree = "<group>"; };
+		FD7D96BD20B2CBA400BDC837 /* FFPostReviewRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPostReviewRequestModel.swift; sourceTree = "<group>"; };
+		FDA330DE20A4781100FE1EF9 /* FFMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFMenuViewController.swift; sourceTree = "<group>"; };
+		FDAC6FB220C50A3C005AF076 /* FFAddRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAddRecipeViewController.swift; sourceTree = "<group>"; };
+		FDB7AE4220AAA79700867AFF /* FFCategoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCategoryDetailViewController.swift; sourceTree = "<group>"; };
+		FDB7AE4420AAE90700867AFF /* FFCategoryDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCategoryDetailTableViewCell.swift; sourceTree = "<group>"; };
+		FDB7AE4620AB060900867AFF /* FFRecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRecipeDetailViewController.swift; sourceTree = "<group>"; };
+		FDD314B3209ADB9D00A9E8D1 /* FriendsAndFoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendsAndFoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD314B6209ADB9D00A9E8D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDD314BB209ADB9D00A9E8D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDD314BD209ADB9E00A9E8D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDD314C0209ADB9E00A9E8D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDD314C2209ADB9E00A9E8D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD314C9209AE8E400A9E8D1 /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		FDD314CB209AE91300A9E8D1 /* FFManagerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFManagerClass.swift; sourceTree = "<group>"; };
+		FDD314CE209AEE7800A9E8D1 /* FFBaseRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFBaseRequestModel.swift; sourceTree = "<group>"; };
+		FDD314D0209AEE8500A9E8D1 /* FFBaseResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFBaseResponseModel.swift; sourceTree = "<group>"; };
+		FDD314D2209AFB9D00A9E8D1 /* FFResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFResultModel.swift; sourceTree = "<group>"; };
+		FDD314D4209B151200A9E8D1 /* FFEntranceListRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFEntranceListRequestModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD314B0209ADB9D00A9E8D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C7712C6E89DF649524B360 /* Pods_FriendsAndFoodApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		582A2BAA20E2031F00FCA918 /* Notificatio */ = {
+			isa = PBXGroup;
+			children = (
+				582A2BAB20E2033E00FCA918 /* FFNotificationSettingRequestModel.swift */,
+				582A2BAF20E25FC100FCA918 /* FFNotificationListRequestModel.swift */,
+				582A2BAD20E210DC00FCA918 /* FFPostNotificationRequestModel.swift */,
+				633FD3A4256E7A9E00A23313 /* FFEnableNotificationRequestModel.swift */,
+				633FD3A7256E7B1400A23313 /* FFDisableNotificationRequestModel.swift */,
+			);
+			path = Notificatio;
+			sourceTree = "<group>";
+		};
+		5856D69420E1191900687203 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				5856D69720E1197A00687203 /* FFNotificationViewController.swift */,
+				5856D69920E11F5900687203 /* FFNotificationSettingsViewController.swift */,
+				582A2BB120E26B1500FCA918 /* FFNotificationTableViewCell.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		58C7C52120EB50F500537C0F /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				58C7C51F20EB50EE00537C0F /* FFriendsListViewController.swift */,
+				58C7C52720EC97A500537C0F /* FFAddFriendViewController.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		58C7C52420EBA76900537C0F /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				58C7C52520EBA78F00537C0F /* FFriendListRequestModel.swift */,
+				58C7C52920ECB94800537C0F /* FFAddFriendByEmailRequestModel.swift */,
+				58C7C52B20ECC1D500537C0F /* FFAddFriendByNickNameRequestModel.swift */,
+				EE245F9320F4EEBC001BE736 /* FFNicknameSearchRequestModel.swift */,
+				EE1B526B20EE29910044259D /* FFCancelFriendRequestModel.swift */,
+				EE1B526D20EE45470044259D /* FFAcceptFriendRequestModel.swift */,
+				EE1B526F20EE4D600044259D /* FFRejectFriendRequest.swift */,
+				EE1B527120EE57C80044259D /* FFBlockFriendRequestModel.swift */,
+				EE620B6D20F7344A005343C9 /* FFCheckFreindRequestModel.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		B5F14D322489FEF08039F002 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB720A8E230F09F04D8DFBED /* Pods-FriendsAndFoodApp.debug.xcconfig */,
+				D8A59307482D46FC1E46257B /* Pods-FriendsAndFoodApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D4CC95603B09788AE52FEE01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09592D4CD21162486CFBF811 /* Pods_FriendsAndFoodApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E84757CB251C7A19007E9739 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				56D17CA224D3389900D7B61D /* FFMyStoreViewController.swift */,
+				56009AEF24D4013B005A5F6D /* FFStoreTypeTableViewCell.swift */,
+				562020FD24DC345200B626B4 /* FFStoreListingViewController.swift */,
+				56157FA724DDC07E008C021D /* FFStoreDetailViewController.swift */,
+				E8FC445C2502472400ECF2E9 /* FFSuggestStoreBaseController.swift */,
+				E8FC4454250229B700ECF2E9 /* FFAddStoreStepOneVC.swift */,
+				E8FC4456250229C900ECF2E9 /* FFAddStoreStepTwoVC.swift */,
+				E8FC4458250229D900ECF2E9 /* FFAddStoreStepThreeVC.swift */,
+				E82655FF25237D0600E67092 /* FFUpdateRestStoreDescVC.swift */,
+				E80CA7D025315A950046A0DA /* FFStoreProductDetailVC.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		E84757CC251C7A38007E9739 /* I Like */ = {
+			isa = PBXGroup;
+			children = (
+				56ED29FC24D31154001F04A6 /* FFILikeViewController.swift */,
+			);
+			path = "I Like";
+			sourceTree = "<group>";
+		};
+		E84757CD251C7A52007E9739 /* MyFavourite */ = {
+			isa = PBXGroup;
+			children = (
+				56ED29FE24D336E6001F04A6 /* FFMyFavouriteViewController.swift */,
+				E88C56B62521A079004091E0 /* FFFollowViewController.swift */,
+				E88C56B42521A053004091E0 /* FollowTableViewCell.swift */,
+			);
+			path = MyFavourite;
+			sourceTree = "<group>";
+		};
+		E84757CE251C7A5F007E9739 /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				56D17CA424D33A8800D7B61D /* FFLanguagesViewController.swift */,
+				56009AE724D3F2B5005A5F6D /* LanguagesTableViewCell.swift */,
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+		E84757CF251C7A83007E9739 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				EE52CAAA2111D430001D47CC /* FFContactUsViewController.swift */,
+				E8B03EA62507B14500F2DE14 /* FFPreferencesViewController.swift */,
+				E8DA91B1250CF4FB003CF88A /* FFContactUsNewViewController.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		E84757D0251C7A9C007E9739 /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				FD57DF7420A0758300D43ECC /* FFLoginViewController.swift */,
+				FD60DED120BEB0BB00C93137 /* FFRegistrationViewController.swift */,
+				FD62536320BFE9DB00EF7E5F /* FFLostPasswordViewController.swift */,
+				6342642B25752A4A008C2A91 /* FFFirstPrefernceViewController.swift */,
+				6342642E25754636008C2A91 /* FFSecondPrefernceViewController.swift */,
+				6342644A257675AE008C2A91 /* PrefernceCollectionReusableView.swift */,
+				63426469257766B3008C2A91 /* PrefernceHeaderReusableView.swift */,
+				6342644D25768525008C2A91 /* FFThirdPrefernceViewController.swift */,
+				6342646C2577D3E2008C2A91 /* FFFourthPrefernceViewController.swift */,
+				636983E825791DDA008D97FB /* FFFifthPrefernceViewController.swift */,
+				635D3E43257E5F7F00442801 /* FFFSixthPrefernceViewController.swift */,
+				635D3E46257E68A200442801 /* FFSeventhPrefernceViewController.swift */,
+				635D3E49257E740300442801 /* FFSelectLanguageViewController.swift */,
+			);
+			path = LoginRegister;
+			sourceTree = "<group>";
+		};
+		E84757D1251C7ADB007E9739 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				FD50CACD209C850B009DE321 /* FFLaunchViewController.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		E84757D2251C7AF6007E9739 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FDA330DE20A4781100FE1EF9 /* FFMenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		E84757D3251C7B02007E9739 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				FD50CAB2209C1E71009DE321 /* FFTabViewController.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		E84757D4251C7B15007E9739 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				FD57DF6820A0100500D43ECC /* FFLoaderView.swift */,
+				FD5EF23520A193CC0075239B /* FFBaseClass.swift */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		E88C56B325219EB3004091E0 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				56009AED24D40068005A5F6D /* FFStoreTypeRequestModel.swift */,
+				5620210124DC404600B626B4 /* FFStoreListModel.swift */,
+				56157FA524DDBF81008C021D /* FFStoreListCityWiseModel.swift */,
+				5601616124DDD1DD00212E9C /* FFStoreDetailModel.swift */,
+				E86C13A225014E990080F2ED /* FFStoreReviewListModel.swift */,
+				E86C13A825014F7B0080F2ED /* FFStorePostReviewRequestModel.swift */,
+				E8FC445A250246BA00ECF2E9 /* FFSuggestStorePostModel.swift */,
+				E8C278B0252EE818008503BC /* FFStoreProductCategoriesRequestModel.swift */,
+				E84E2D7425303C5A00D5CD2C /* FFLikeStoreRequestModel.swift */,
+				E84E2D7625303C6600D5CD2C /* FFDisLikeStoreRequestModel.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		E8D3319A2525AD6F005AE770 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				E807B5A02513BAF7003AA049 /* Constants.swift */,
+				E807B5A22513BB34003AA049 /* Localization.swift */,
+				E8131C11251D9CE000E9F70F /* UserDefault.swift */,
+				E8131C13251D9D2000E9F70F /* LanguageObservable.swift */,
+				E8131C15251D9D5A00E9F70F /* Language.swift */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		EE7932EF210066EB00CE6D6C /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				EE7932F02100670400CE6D6C /* FFRestaursntListRequestModel.swift */,
+				56157FA324DDBEAE008C021D /* FFRestaurantListCityWiseRequestModel.swift */,
+				EE888D2D211072AA0098DF76 /* FFRestaurantDetailRequestModel.swift */,
+				EE96E69C2109A1550052FBED /* FFGetFavRestaurantListRequestModel.swift */,
+				EE880E432106E5A000D6651F /* FFLikeRestaurantRequestModel.swift */,
+				EE880E452106E5B300D6651F /* FFDislikeRestaurantRequestModel.swift */,
+				EE880E47210761B500D6651F /* FFGetRestaurantRecipeRequestModel.swift */,
+				EE880E49210761C800D6651F /* FFGetRestaurantActivityRequestModel.swift */,
+				EE96E69E2109B8560052FBED /* FFGetCountriesRequestModel.swift */,
+				EE96E6A22109BCDA0052FBED /* FFGetRegionsRequestModel.swift */,
+				EE96E6A42109BE520052FBED /* FFGetCitiesRequestModel.swift */,
+				EE96E6A62109C23E0052FBED /* FFSearchRestaurantsRequestModel.swift */,
+				EE9981E2211C9447006E3287 /* FFRestaurantSubscribeRequestModel.swift */,
+				566DEFA324D948C500F44CD6 /* FFRestaurantMenuModel.swift */,
+				E83CFB4724FD30D000FC0733 /* FFFunctionModel.swift */,
+				E810212724FE1F07006FD55B /* FFAddRestaurantRequestModel.swift */,
+				E80D159624FFF60F00904C07 /* FFDaysModel.swift */,
+				E86C13A425014ED00080F2ED /* FFRestaurantReviewListModel.swift */,
+				E86C13A625014F3B0080F2ED /* FFRestaurantPostReviewRequestModel.swift */,
+				E8B03EA425076EE200F2DE14 /* FFAddMenuRequestModel.swift */,
+				E8B03EA82507BEFF00F2DE14 /* FFDeleteMenuRequestModel.swift */,
+				E8ECCEC1250A0B740082044D /* FFAddOwnerDetailsRequestModel.swift */,
+				E84757D5251CBB3C007E9739 /* FFAddStoreOwnerRequestModel.swift */,
+			);
+			path = Restaurants;
+			sourceTree = "<group>";
+		};
+		EE79C0A820FE0046000BB2E0 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				EE79C0A620FE003E000BB2E0 /* FFRestaurantDetailViewController.swift */,
+				EE7932EB2100603A00CE6D6C /* FFRestaurantListViewController.swift */,
+				EE9981E0211C88BF006E3287 /* FFRestaurantSubscribeViewController.swift */,
+				EE1ABD3E2108855000009934 /* FFRestaurantActivityCellTableViewCell.swift */,
+				EE96E69A21099A350052FBED /* FFFindRestaurantViewController.swift */,
+				566DEFA924D98E0800F44CD6 /* FFMenuTableViewCell.swift */,
+				E896236624EFFC6100A3FFEB /* FFAddRestaurantViewController.swift */,
+				E896236824F043BB00A3FFEB /* FFAddRestaurantTwoViewController.swift */,
+				E891158C24F5495300915C5B /* FFAddRestaurantThreeViewController.swift */,
+				E810212B24FE4F2D006FD55B /* FFDeclareOwnerRestaurantViewController.swift */,
+				E83DCC3525001AD200C83C99 /* OwnerCollectionHeader.swift */,
+				E810212D24FE7D56006FD55B /* FFAddRestaurantBaseController.swift */,
+				E80D1598250017B600904C07 /* MyHeaderFooterClass.swift */,
+				E8B03EA225076A5100F2DE14 /* FFAddMenuViewController.swift */,
+				E8494BA02518E0EE00A587A7 /* FFUpdateGetInTouchViewController.swift */,
+				E81294CC2519BA2B005317F1 /* FFUpdateHoursViewController.swift */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		EE7C6BC320F62A5800F62D8C /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				EE7C6BC120F6003D00F62D8C /* FFMessagingViewController.swift */,
+				EE620B6F20F7C097005343C9 /* FFChatViewController.swift */,
+				E8D3319B2525D8B7005AE770 /* RecieverCell.swift */,
+				E8D3319F2525D8B8005AE770 /* RecieverCell.xib */,
+				E8D3319E2525D8B7005AE770 /* SenderCell.swift */,
+				E8D331A02525D8B8005AE770 /* SenderCell.xib */,
+				E8D3319D2525D8B7005AE770 /* TimeCell.swift */,
+				E8D3319C2525D8B7005AE770 /* TimeCell.xib */,
+			);
+			path = Messaging;
+			sourceTree = "<group>";
+		};
+		FD438EA120B3DB63006FFE53 /* My Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				FD438EA220B3DBB6006FFE53 /* FFMyRecipesViewController.swift */,
+				FD438EA920B43934006FFE53 /* FFMyFavoriteRecipesViewController.swift */,
+				FD438EA420B3E6F3006FFE53 /* FFMyRecipeTableViewCell.swift */,
+				FDAC6FB220C50A3C005AF076 /* FFAddRecipeViewController.swift */,
+				588EE1DB20DB9F9F00AF3188 /* FFAddRecipeBaseController.swift */,
+				587BBB8320C9549B00F7F75E /* FFStepTwoViewController.swift */,
+				587BBB8520CA575400F7F75E /* FFSelectPopUpViewController.swift */,
+				5824A26E20CFCF24003B476B /* FFStepThreeViewController.swift */,
+				E8B03EAC2507EBDF00F2DE14 /* FFFindRecipeViewController.swift */,
+			);
+			path = "My Recipes";
+			sourceTree = "<group>";
+		};
+		FD438EA620B3F456006FFE53 /* Objectmodels */ = {
+			isa = PBXGroup;
+			children = (
+				FDD314D2209AFB9D00A9E8D1 /* FFResultModel.swift */,
+				58C7C52220EB5CED00537C0F /* FFFriendObject.swift */,
+				589163C520CEA55000924368 /* FFStepObject.swift */,
+				FD57DF7020A0180700D43ECC /* FFEntranceObject.swift */,
+				FD57DF7220A01BF900D43ECC /* FFRecipeTypeObject.swift */,
+				FD2CB2CF20AEE30700613CBC /* FFReviewObject.swift */,
+				FD5EF23320A18D900075239B /* FFUserObject.swift */,
+				E80642EE251B615000FF1166 /* FFUserAddressObject.swift */,
+				E8ADAF69252F600C005CD48F /* FFInvitedByObject.swift */,
+				E80642F2251BACB000FF1166 /* FFbirthdateObject.swift */,
+				E80642F0251B64D200FF1166 /* FFGamificationObject.swift */,
+				FD203C0420B54728006CA49D /* FFNutritionObject.swift */,
+				589163C120CE43B400924368 /* FFMeasureObject.swift */,
+				58DC7C9A20D7D2FF00506A25 /* FFImageObject.swift */,
+				58E80BC520D8CA2000016780 /* FFIngredientUploadObject.swift */,
+				582A2BA820E2021E00FCA918 /* FFNotificationObject.swift */,
+				EE7932ED210063AF00CE6D6C /* FFRestaurantObject.swift */,
+				EE96E6A02109B8F10052FBED /* FFPlaceObject.swift */,
+				561BBF8724C7E402006E47AC /* FFSeasonObject.swift */,
+				561BBF8D24C7EB99006E47AC /* FFFaqObject.swift */,
+				56CDC3FE24CEF5D300C19F0A /* FFUniverseObject.swift */,
+				56009AE524D3F167005A5F6D /* FFLanguageObject.swift */,
+				56009AEB24D3FFD9005A5F6D /* FFStoreTypeObject.swift */,
+				562C78AD24D457A000E3530C /* FFIngrVarietyObject.swift */,
+				566DEFA524D9494600F44CD6 /* FFRestaurantMenuObject.swift */,
+				566DEFA724D94A2300F44CD6 /* FFRestMenuObject.swift */,
+				562020FF24DC398200B626B4 /* FFStoreObject.swift */,
+				E8BD5CF224EA87F60078EB67 /* FFResStoreObject.swift */,
+				E8D8386B24F7CD09005CA50B /* FFSpecialDietObject.swift */,
+				E810212924FE2D0A006FD55B /* FFAllInterestObject.swift */,
+				E8B03EAA2507E1F300F2DE14 /* FFCurrencyObject.swift */,
+				E84640E8251528D4006DC531 /* FFCompanyObject.swift */,
+				E88C56BA2521A419004091E0 /* FFFollowObject.swift */,
+				E8D331A92525DB5F005AE770 /* FFMessageObject.swift */,
+				E8C278AE252EE7B5008503BC /* FFStoreProductCategoriesObject.swift */,
+				E8C278B2252EEA7D008503BC /* FFStoreProductsObject.swift */,
+				6348AE85257F8A01006A91B5 /* FFExpertiseLevelObject.swift */,
+			);
+			path = Objectmodels;
+			sourceTree = "<group>";
+		};
+		FD4C063F20BBF2F400DB8297 /* My Ingredients */ = {
+			isa = PBXGroup;
+			children = (
+				FD4C063D20BBF2EE00DB8297 /* FFMyIngredientsViewController.swift */,
+				FD4C064020BBFA4500DB8297 /* FFMyIngredientTableViewCell.swift */,
+			);
+			path = "My Ingredients";
+			sourceTree = "<group>";
+		};
+		FD4C064820BC1F8600DB8297 /* Bottom Tab  */ = {
+			isa = PBXGroup;
+			children = (
+				FDD314D4209B151200A9E8D1 /* FFEntranceListRequestModel.swift */,
+				6340F5A02549A1FD007AFD5F /* FFAllRecipesListRequestModel.swift */,
+				FD75E72820A2ADBF006D821E /* FFEatWellDetailRequestModel.swift */,
+				FD5EF23920A1AEE60075239B /* FFEatWellListRequestModel.swift */,
+				FD75E73420A2F355006D821E /* FFDishesListRequestModel.swift */,
+				FD592FFC20C643A700F2D306 /* FFDishDetailRequestModel.swift */,
+				FD75E73620A2F67E006D821E /* FFIngredientsListRequestModel.swift */,
+				FD7950FA20A5592E00F2F2A5 /* FFIngredientsInnerListRequestModel.swift */,
+				FD592FFE20C643C100F2D306 /* FFIngredientDetailRequestModel.swift */,
+				FD39531B20AD5ECE004E3B1B /* FFRecipeListRequestModel.swift */,
+				FD39531D20ADA879004E3B1B /* FFRecipeDetailRequestModel.swift */,
+				FD2CB2D120AEE3B800613CBC /* FFReviewListRequestModel.swift */,
+				FD7D96BD20B2CBA400BDC837 /* FFPostReviewRequestModel.swift */,
+				561BBF8924C7E706006E47AC /* FFSeasonModel.swift */,
+				561BBF8B24C7EA67006E47AC /* FFFaqModel.swift */,
+				E89246B72534558D00E36E93 /* FFHomeFaqModel.swift */,
+				561BBF8F24C7FE0E006E47AC /* FFNutritionModel.swift */,
+				56CDC40024CEF68200C19F0A /* FFUniverseRequestModel.swift */,
+				562C78AF24D4583600E3530C /* FFIngreVarietyRequestModel.swift */,
+				E8D2D924252201F500E60D0D /* FFMemberFavouritesRequestModel.swift */,
+				E8D331A72525DA4F005AE770 /* FFGetMessagesRequestModel.swift */,
+				E8D331AD2525E9B5005AE770 /* FFSendMessageRequestModel.swift */,
+				E83C6C242535C0840080484E /* FFInviteUserRequestModel.swift */,
+			);
+			path = "Bottom Tab ";
+			sourceTree = "<group>";
+		};
+		FD4C064920BC1FA800DB8297 /* Side menu */ = {
+			isa = PBXGroup;
+			children = (
+				FD66B32520C11CFA0065F749 /* Recipes */,
+				FD66B32620C11D090065F749 /* Ingredients */,
+				FD66B32720C11D180065F749 /* categories */,
+				58C7C52420EBA76900537C0F /* Friends */,
+				582A2BAA20E2031F00FCA918 /* Notificatio */,
+				EE7932EF210066EB00CE6D6C /* Restaurants */,
+				FD66B32820C11D210065F749 /* interests */,
+				56009AE324D3ECEE005A5F6D /* FFLanguageRequestModel.swift */,
+				633F8D0A258288E700A707E5 /* FFCountriesByLanguageRequestModel.swift */,
+				633FF035258358B40047911B /* FFAddCountriesLanguageRequestModel.swift */,
+				E88C56B325219EB3004091E0 /* Store */,
+				E804A71825054A8D004AC173 /* FFSearchStoreRequestModel.swift */,
+				E814E8C2250365EE001E5445 /* FFDisplayHourModel.swift */,
+				E8DA91B3250CF981003CF88A /* FFPostContactRequestModel.swift */,
+				E88C56B82521A304004091E0 /* FFMyFollowListRequestModel.swift */,
+			);
+			path = "Side menu";
+			sourceTree = "<group>";
+		};
+		FD4C064A20BC1FB900DB8297 /* Base Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDD314CE209AEE7800A9E8D1 /* FFBaseRequestModel.swift */,
+				FDD314D0209AEE8500A9E8D1 /* FFBaseResponseModel.swift */,
+			);
+			path = "Base Models";
+			sourceTree = "<group>";
+		};
+		FD4C064D20BC329800DB8297 /* My Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FD4C064B20BC329400DB8297 /* FFMyCategoriesViewController.swift */,
+				FD4C064E20BC32B500DB8297 /* FFMyCategoriesTableViewCell.swift */,
+			);
+			path = "My Categories";
+			sourceTree = "<group>";
+		};
+		FD50CAB8209C2B2C009DE321 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FD50CAB6209C2A3B009DE321 /* UIColor+Additions.swift */,
+				FD50CAB0209C1990009DE321 /* UIImage+Gif.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FD50CACA209C7D2F009DE321 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E84757D0251C7A9C007E9739 /* LoginRegister */,
+				E84757D4251C7B15007E9739 /* BaseClass */,
+				E84757D2251C7AF6007E9739 /* Menu */,
+				E84757D1251C7ADB007E9739 /* Launch */,
+				E84757D3251C7B02007E9739 /* Tab */,
+				E84757CF251C7A83007E9739 /* Preferences */,
+				EE79C0A820FE0046000BB2E0 /* Restaurant */,
+				EE7C6BC320F62A5800F62D8C /* Messaging */,
+				58C7C52120EB50F500537C0F /* Friends */,
+				5856D69420E1191900687203 /* Notification */,
+				FD59B89420BD62F70047D37A /* My Interest */,
+				FD4C064D20BC329800DB8297 /* My Categories */,
+				FD4C063F20BBF2F400DB8297 /* My Ingredients */,
+				FD438EA120B3DB63006FFE53 /* My Recipes */,
+				FD75E72A20A2B9EA006D821E /* At the moment */,
+				FD75E72B20A2B9FE006D821E /* Eat well */,
+				FD75E72F20A2BA55006D821E /* Thematic */,
+				FD75E72C20A2BA15006D821E /* Profile */,
+				56FF979724CAFCE60058044D /* NotConnectedVC.swift */,
+				E84757CC251C7A38007E9739 /* I Like */,
+				E84757CD251C7A52007E9739 /* MyFavourite */,
+				E84757CB251C7A19007E9739 /* Store */,
+				E84757CE251C7A5F007E9739 /* Languages */,
+				E84216D8252B4BCB008845E1 /* FFNonProfessionalHomeViewController.swift */,
+				E847CAEC2530C33000A2C25C /* FFProfessionalHomeViewController.swift */,
+				E82F7133252D5C250084A13B /* FFFaqViewController.swift */,
+				E8123FB9252D5E5200118D4E /* FFHomeRecipeViewController.swift */,
+				E89246B92534DA9E00E36E93 /* FFDashboardViewController.swift */,
+				E83C6C22253590100080484E /* FFProfessionalHomeSecondVC.swift */,
+				E83C6C262535C4100080484E /* FFProfessionalHomeThirdVC.swift */,
+				634613DE256D417F003DD527 /* FFWhatIlikeVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FD59B89420BD62F70047D37A /* My Interest */ = {
+			isa = PBXGroup;
+			children = (
+				FD59B89220BD62EF0047D37A /* FFMyInterestsViewController.swift */,
+				FD60DECF20BE7EAF00C93137 /* FFMyInterestTableViewCell.swift */,
+			);
+			path = "My Interest";
+			sourceTree = "<group>";
+		};
+		FD62536220BFC24100EF7E5F /* Authorisation models */ = {
+			isa = PBXGroup;
+			children = (
+				FD5EF23120A180F10075239B /* FFLoginRequestModel.swift */,
+				FD62536020BFC23B00EF7E5F /* FFRegisterRequestModel.swift */,
+				FD66B32920C11D700065F749 /* FFRetrievePasswordRequestModel.swift */,
+				FD66B32B20C149A70065F749 /* FFValidateCodeRequestModel.swift */,
+				587BBB8120C7A7C700F7F75E /* FFConfirmPasswordRequestModel.swift */,
+				5820887F20E3BDBD00DBE0B0 /* FFGetProfileDetailsRequestModel.swift */,
+				58F617EA20E4A68E00FCB4E3 /* FFEditProfileRequestModel.swift */,
+				E80642F7251BB1F900FF1166 /* FFChangePasswordRequestModel.swift */,
+				E84757C5251C497D007E9739 /* FFUpdateAddressRequestModel.swift */,
+				E84757C9251C55AB007E9739 /* FFUpdateProfessionalInfoRequestModel.swift */,
+				E82655FD25230B4100E67092 /* FFFollowRequestModel.swift */,
+				6348AE82257F888D006A91B5 /* FFGetExpertiseLevelRequestModel.swift */,
+				6348AE88257F9394006A91B5 /* FFAddExpertiseLevelRequestModel.swift */,
+			);
+			path = "Authorisation models";
+			sourceTree = "<group>";
+		};
+		FD66B32520C11CFA0065F749 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				FD438EA720B3F4A3006FFE53 /* FFMyRecipesListRequestModel.swift */,
+				FD203C0220B53043006CA49D /* FFMyFavRecipeListRequestModel.swift */,
+				FD203C0620B55C0E006CA49D /* FFLikeRecipeRequestModel.swift */,
+				FD203C0820B58635006CA49D /* FFDislikeRecipeRequestModel.swift */,
+				587C131520D0E01D0062053A /* FFImageUploadRequest.swift */,
+				58C823B320D22A4800E6E858 /* FFAddRecipeRequestModel.swift */,
+				EE9981DE211C6F8F006E3287 /* FFDeleteRecipeRequestModel.swift */,
+				E8F602F22508EE850025C37D /* FFSearchRecipeRequestModel.swift */,
+				E8069118250937020018C983 /* FFRecipeTypeRequestModel.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		FD66B32620C11D090065F749 /* Ingredients */ = {
+			isa = PBXGroup;
+			children = (
+				FD4C064220BC04D500DB8297 /* FFMyIngredientRequestModel.swift */,
+				FD4C064420BC10C400DB8297 /* FFLikeIngredientRequestModel.swift */,
+				FD4C064620BC1F3800DB8297 /* FFDislikeIngredientRequestModel.swift */,
+				589163BF20CE3B4600924368 /* FFSearchIngredientRequestModel.swift */,
+				589163C320CE55BE00924368 /* FFGetMeasureRequestModel.swift */,
+			);
+			path = Ingredients;
+			sourceTree = "<group>";
+		};
+		FD66B32720C11D180065F749 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				FD59B88C20BD19F20047D37A /* FFMyCategoriesListRequestModel.swift */,
+				FD59B88E20BD3FBF0047D37A /* FFLikeCategoryRequestModel.swift */,
+				FD59B89020BD3FF00047D37A /* FFDislikeCategoryRequestModel.swift */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		FD66B32820C11D210065F749 /* interests */ = {
+			isa = PBXGroup;
+			children = (
+				FD60DECD20BE6F5A00C93137 /* FFMyInterestsListRequestModel.swift */,
+				FD66B32120C10AD30065F749 /* FFLikeInterestRequestModel.swift */,
+				633F4C2D25810F7B00F5FD3B /* FFLikeMultipleInterestRequestModel.swift */,
+				FD66B32320C10F670065F749 /* FFDislikeInterestRequestModel.swift */,
+			);
+			path = interests;
+			sourceTree = "<group>";
+		};
+		FD75E72A20A2B9EA006D821E /* At the moment */ = {
+			isa = PBXGroup;
+			children = (
+				FD50CAB4209C28F9009DE321 /* FFAtTheMomentListViewController.swift */,
+				FD50CAC8209C7D27009DE321 /* FFEntranceListViewController.swift */,
+				FD50CACB209C8116009DE321 /* FFEntranceCollectionViewCell.swift */,
+				FD57DF6A20A011B700D43ECC /* FFDishesListViewController.swift */,
+				FD57DF6C20A011C600D43ECC /* FFDessertsListViewController.swift */,
+			);
+			path = "At the moment";
+			sourceTree = "<group>";
+		};
+		FD75E72B20A2B9FE006D821E /* Eat well */ = {
+			isa = PBXGroup;
+			children = (
+				FD5EF23B20A1AF660075239B /* FFEatWellListViewController.swift */,
+				FD2CB2CD20AECB8D00613CBC /* FFEatWellRecipeViewController.swift */,
+				634613DB256D0BF2003DD527 /* EatWellMenuViewController.swift */,
+			);
+			path = "Eat well";
+			sourceTree = "<group>";
+		};
+		FD75E72C20A2BA15006D821E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FD5EF23720A195DA0075239B /* FFProfileViewController.swift */,
+				E82655FB2522F04B00E67092 /* FFMemberProfileViewController.swift */,
+				58F617E820E49AE800FCB4E3 /* FFEditProfileViewController.swift */,
+				E80642F5251BAF4500FF1166 /* FFChangePasswordVC.swift */,
+				E80642F9251BC64000FF1166 /* FFUpdateAddressVC.swift */,
+				E84757C7251C5276007E9739 /* FFProfessionalInfoVC.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FD75E72F20A2BA55006D821E /* Thematic */ = {
+			isa = PBXGroup;
+			children = (
+				FD75E72D20A2BA45006D821E /* FFThematicViewController.swift */,
+				FD75E73020A2BC82006D821E /* FFThematicDishesTypeViewController.swift */,
+				FD75E73820A30A8D006D821E /* FFDishTableViewCell.swift */,
+				FD75E73220A2F0EA006D821E /* FFThematicIngredientsViewController.swift */,
+				FD7950F820A5542500F2F2A5 /* FFThematicIngredientsInnerViewController.swift */,
+				FDB7AE4220AAA79700867AFF /* FFCategoryDetailViewController.swift */,
+				FDB7AE4420AAE90700867AFF /* FFCategoryDetailTableViewCell.swift */,
+				FDB7AE4620AB060900867AFF /* FFRecipeDetailViewController.swift */,
+				FD7D96B720B28B0A00BDC837 /* FFReviewTableViewCell.swift */,
+				FD3D356420B7E9CE00EB0856 /* FFReviewListViewController.swift */,
+				5609052E24C717BC00EA3FDB /* FFIngredientDetailController.swift */,
+				5609053024C71A2300EA3FDB /* FFIngredientDetailTableViewCell.swift */,
+			);
+			path = Thematic;
+			sourceTree = "<group>";
+		};
+		FDD314AA209ADB9D00A9E8D1 = {
+			isa = PBXGroup;
+			children = (
+				FDD314B5209ADB9D00A9E8D1 /* FriendsAndFoodApp */,
+				FDD314B4209ADB9D00A9E8D1 /* Products */,
+				B5F14D322489FEF08039F002 /* Pods */,
+				D4CC95603B09788AE52FEE01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD314B4209ADB9D00A9E8D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD314B3209ADB9D00A9E8D1 /* FriendsAndFoodApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD314B5209ADB9D00A9E8D1 /* FriendsAndFoodApp */ = {
+			isa = PBXGroup;
+			children = (
+				634ABADD2566527500CC2C01 /* GoogleService-Info.plist */,
+				FDD314B6209ADB9D00A9E8D1 /* AppDelegate.swift */,
+				E8D331AB2525DFAC005AE770 /* UIView+Ext.swift */,
+				634ABA80256397DA00CC2C01 /* Util+Ext.swift */,
+				E8D3319A2525AD6F005AE770 /* Language */,
+				E81A2ED925138E29005DD9FB /* Localizable.strings */,
+				FD50CACF209C8582009DE321 /* loader-ff.gif */,
+				FD50CACA209C7D2F009DE321 /* View Controllers */,
+				FD50CAB8209C2B2C009DE321 /* Extensions */,
+				FDD314CD209AEE6000A9E8D1 /* Model Classes */,
+				FDD314C8209AE8AF00A9E8D1 /* WebService Classes */,
+				FDD314BA209ADB9D00A9E8D1 /* Main.storyboard */,
+				FDD314BD209ADB9E00A9E8D1 /* Assets.xcassets */,
+				FDD314BF209ADB9E00A9E8D1 /* LaunchScreen.storyboard */,
+				FDD314C2209ADB9E00A9E8D1 /* Info.plist */,
+			);
+			path = FriendsAndFoodApp;
+			sourceTree = "<group>";
+		};
+		FDD314C8209AE8AF00A9E8D1 /* WebService Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FDD314C9209AE8E400A9E8D1 /* BaseAPI.swift */,
+				FDD314CB209AE91300A9E8D1 /* FFManagerClass.swift */,
+			);
+			path = "WebService Classes";
+			sourceTree = "<group>";
+		};
+		FDD314CD209AEE6000A9E8D1 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FD62536220BFC24100EF7E5F /* Authorisation models */,
+				FD4C064A20BC1FB900DB8297 /* Base Models */,
+				FD438EA620B3F456006FFE53 /* Objectmodels */,
+				FD4C064820BC1F8600DB8297 /* Bottom Tab  */,
+				FD4C064920BC1FA800DB8297 /* Side menu */,
+			);
+			path = "Model Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDD314B2209ADB9D00A9E8D1 /* FriendsAndFoodApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD314C5209ADB9E00A9E8D1 /* Build configuration list for PBXNativeTarget "FriendsAndFoodApp" */;
+			buildPhases = (
+				F9B4965DD723106B68730C96 /* [CP] Check Pods Manifest.lock */,
+				FDD314AF209ADB9D00A9E8D1 /* Sources */,
+				FDD314B0209ADB9D00A9E8D1 /* Frameworks */,
+				FDD314B1209ADB9D00A9E8D1 /* Resources */,
+				634ABAE1256654D600CC2C01 /* ShellScript */,
+				DD0BD8AB87FBAEA1F9455973 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FriendsAndFoodApp;
+			productName = FriendsAndFoodApp;
+			productReference = FDD314B3209ADB9D00A9E8D1 /* FriendsAndFoodApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD314AB209ADB9D00A9E8D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = LumiMac;
+				TargetAttributes = {
+					FDD314B2209ADB9D00A9E8D1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = FDD314AE209ADB9D00A9E8D1 /* Build configuration list for PBXProject "FriendsAndFoodApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				de,
+				fr,
+				it,
+			);
+			mainGroup = FDD314AA209ADB9D00A9E8D1;
+			productRefGroup = FDD314B4209ADB9D00A9E8D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD314B2209ADB9D00A9E8D1 /* FriendsAndFoodApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD314B1209ADB9D00A9E8D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D331A62525D8B8005AE770 /* SenderCell.xib in Resources */,
+				E8D331A22525D8B8005AE770 /* TimeCell.xib in Resources */,
+				634ABADE2566527500CC2C01 /* GoogleService-Info.plist in Resources */,
+				E81A2ED725138E29005DD9FB /* Localizable.strings in Resources */,
+				FDD314C1209ADB9E00A9E8D1 /* LaunchScreen.storyboard in Resources */,
+				FD50CAD0209C8582009DE321 /* loader-ff.gif in Resources */,
+				E8D331A52525D8B8005AE770 /* RecieverCell.xib in Resources */,
+				FDD314BE209ADB9E00A9E8D1 /* Assets.xcassets in Resources */,
+				FDD314BC209ADB9D00A9E8D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		634ABAE1256654D600CC2C01 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		DD0BD8AB87FBAEA1F9455973 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FriendsAndFoodApp/Pods-FriendsAndFoodApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FriendsAndFoodApp/Pods-FriendsAndFoodApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FriendsAndFoodApp/Pods-FriendsAndFoodApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B4965DD723106B68730C96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FriendsAndFoodApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD314AF209ADB9D00A9E8D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD57DF7120A0180700D43ECC /* FFEntranceObject.swift in Sources */,
+				FD50CAB5209C28F9009DE321 /* FFAtTheMomentListViewController.swift in Sources */,
+				FD4C064120BBFA4500DB8297 /* FFMyIngredientTableViewCell.swift in Sources */,
+				E84757C8251C5276007E9739 /* FFProfessionalInfoVC.swift in Sources */,
+				6342642C25752A4A008C2A91 /* FFFirstPrefernceViewController.swift in Sources */,
+				56157FA424DDBEAE008C021D /* FFRestaurantListCityWiseRequestModel.swift in Sources */,
+				FD75E73720A2F67E006D821E /* FFIngredientsListRequestModel.swift in Sources */,
+				635D3E44257E5F7F00442801 /* FFFSixthPrefernceViewController.swift in Sources */,
+				FD7950FB20A5592E00F2F2A5 /* FFIngredientsInnerListRequestModel.swift in Sources */,
+				EE1B526E20EE45470044259D /* FFAcceptFriendRequestModel.swift in Sources */,
+				FD5EF23A20A1AEE60075239B /* FFEatWellListRequestModel.swift in Sources */,
+				FD66B32C20C149A70065F749 /* FFValidateCodeRequestModel.swift in Sources */,
+				FD592FFF20C643C100F2D306 /* FFIngredientDetailRequestModel.swift in Sources */,
+				E8ECCEC2250A0B740082044D /* FFAddOwnerDetailsRequestModel.swift in Sources */,
+				582A2BB220E26B1500FCA918 /* FFNotificationTableViewCell.swift in Sources */,
+				E8FC445D2502472400ECF2E9 /* FFSuggestStoreBaseController.swift in Sources */,
+				FD50CAB3209C1E71009DE321 /* FFTabViewController.swift in Sources */,
+				E810212824FE1F07006FD55B /* FFAddRestaurantRequestModel.swift in Sources */,
+				FDA330DF20A4781100FE1EF9 /* FFMenuViewController.swift in Sources */,
+				5820888020E3BDBD00DBE0B0 /* FFGetProfileDetailsRequestModel.swift in Sources */,
+				58C7C52620EBA78F00537C0F /* FFriendListRequestModel.swift in Sources */,
+				E84757CA251C55AB007E9739 /* FFUpdateProfessionalInfoRequestModel.swift in Sources */,
+				E84757D6251CBB3C007E9739 /* FFAddStoreOwnerRequestModel.swift in Sources */,
+				56ED29FF24D336E6001F04A6 /* FFMyFavouriteViewController.swift in Sources */,
+				6342646A257766B3008C2A91 /* PrefernceHeaderReusableView.swift in Sources */,
+				588EE1DC20DB9F9F00AF3188 /* FFAddRecipeBaseController.swift in Sources */,
+				EE1B526C20EE29910044259D /* FFCancelFriendRequestModel.swift in Sources */,
+				FDD314CC209AE91300A9E8D1 /* FFManagerClass.swift in Sources */,
+				FD438EA320B3DBB6006FFE53 /* FFMyRecipesViewController.swift in Sources */,
+				FD50CACE209C850B009DE321 /* FFLaunchViewController.swift in Sources */,
+				E807B5A32513BB34003AA049 /* Localization.swift in Sources */,
+				589163C420CE55BE00924368 /* FFGetMeasureRequestModel.swift in Sources */,
+				6342644B257675AE008C2A91 /* PrefernceCollectionReusableView.swift in Sources */,
+				FD203C0720B55C0E006CA49D /* FFLikeRecipeRequestModel.swift in Sources */,
+				EE880E462106E5B300D6651F /* FFDislikeRestaurantRequestModel.swift in Sources */,
+				635D3E47257E68A200442801 /* FFSeventhPrefernceViewController.swift in Sources */,
+				562020FE24DC345200B626B4 /* FFStoreListingViewController.swift in Sources */,
+				EE880E442106E5A000D6651F /* FFLikeRestaurantRequestModel.swift in Sources */,
+				566DEFA624D9494600F44CD6 /* FFRestaurantMenuObject.swift in Sources */,
+				5620210024DC398200B626B4 /* FFStoreObject.swift in Sources */,
+				FD60DED020BE7EAF00C93137 /* FFMyInterestTableViewCell.swift in Sources */,
+				566DEFA824D94A2300F44CD6 /* FFRestMenuObject.swift in Sources */,
+				561BBF8A24C7E706006E47AC /* FFSeasonModel.swift in Sources */,
+				582A2BB020E25FC100FCA918 /* FFNotificationListRequestModel.swift in Sources */,
+				6342642F25754636008C2A91 /* FFSecondPrefernceViewController.swift in Sources */,
+				58F617EB20E4A68E00FCB4E3 /* FFEditProfileRequestModel.swift in Sources */,
+				EE7932EC2100603A00CE6D6C /* FFRestaurantListViewController.swift in Sources */,
+				E896236724EFFC6100A3FFEB /* FFAddRestaurantViewController.swift in Sources */,
+				FD57DF7320A01BF900D43ECC /* FFRecipeTypeObject.swift in Sources */,
+				E83C6C272535C4100080484E /* FFProfessionalHomeThirdVC.swift in Sources */,
+				FD62536120BFC23B00EF7E5F /* FFRegisterRequestModel.swift in Sources */,
+				FDB7AE4720AB060900867AFF /* FFRecipeDetailViewController.swift in Sources */,
+				FD66B32220C10AD30065F749 /* FFLikeInterestRequestModel.swift in Sources */,
+				EE7C6BC220F6003D00F62D8C /* FFMessagingViewController.swift in Sources */,
+				56D17CA324D3389900D7B61D /* FFMyStoreViewController.swift in Sources */,
+				FDD314CA209AE8E400A9E8D1 /* BaseAPI.swift in Sources */,
+				EE52CAAB2111D430001D47CC /* FFContactUsViewController.swift in Sources */,
+				E8D331A12525D8B8005AE770 /* RecieverCell.swift in Sources */,
+				FD7950F920A5542500F2F2A5 /* FFThematicIngredientsInnerViewController.swift in Sources */,
+				E82655FE25230B4100E67092 /* FFFollowRequestModel.swift in Sources */,
+				E88C56B72521A079004091E0 /* FFFollowViewController.swift in Sources */,
+				FD75E73520A2F355006D821E /* FFDishesListRequestModel.swift in Sources */,
+				587C131620D0E01D0062053A /* FFImageUploadRequest.swift in Sources */,
+				6348AE83257F888D006A91B5 /* FFGetExpertiseLevelRequestModel.swift in Sources */,
+				FD39531E20ADA879004E3B1B /* FFRecipeDetailRequestModel.swift in Sources */,
+				FD2CB2D220AEE3B800613CBC /* FFReviewListRequestModel.swift in Sources */,
+				FD5EF23220A180F10075239B /* FFLoginRequestModel.swift in Sources */,
+				FDD314D3209AFB9D00A9E8D1 /* FFResultModel.swift in Sources */,
+				E84640E9251528D4006DC531 /* FFCompanyObject.swift in Sources */,
+				58DC7C9B20D7D2FF00506A25 /* FFImageObject.swift in Sources */,
+				E8DA91B4250CF981003CF88A /* FFPostContactRequestModel.swift in Sources */,
+				FD59B89120BD3FF00047D37A /* FFDislikeCategoryRequestModel.swift in Sources */,
+				E8F602F32508EE850025C37D /* FFSearchRecipeRequestModel.swift in Sources */,
+				E80642FA251BC64000FF1166 /* FFUpdateAddressVC.swift in Sources */,
+				56FF979824CAFCE60058044D /* NotConnectedVC.swift in Sources */,
+				FD50CAB7209C2A3B009DE321 /* UIColor+Additions.swift in Sources */,
+				FD50CAB1209C1990009DE321 /* UIImage+Gif.swift in Sources */,
+				589163C220CE43B400924368 /* FFMeasureObject.swift in Sources */,
+				582A2BAC20E2033E00FCA918 /* FFNotificationSettingRequestModel.swift in Sources */,
+				FDD314D5209B151200A9E8D1 /* FFEntranceListRequestModel.swift in Sources */,
+				EE79C0A720FE003E000BB2E0 /* FFRestaurantDetailViewController.swift in Sources */,
+				E83C6C252535C0840080484E /* FFInviteUserRequestModel.swift in Sources */,
+				587BBB8220C7A7C700F7F75E /* FFConfirmPasswordRequestModel.swift in Sources */,
+				E807B5A12513BAF7003AA049 /* Constants.swift in Sources */,
+				5824A26F20CFCF24003B476B /* FFStepThreeViewController.swift in Sources */,
+				FDB7AE4320AAA79700867AFF /* FFCategoryDetailViewController.swift in Sources */,
+				EE9981E1211C88BF006E3287 /* FFRestaurantSubscribeViewController.swift in Sources */,
+				FD3D356520B7E9CE00EB0856 /* FFReviewListViewController.swift in Sources */,
+				FD60DECE20BE6F5A00C93137 /* FFMyInterestsListRequestModel.swift in Sources */,
+				56ED29FD24D31154001F04A6 /* FFILikeViewController.swift in Sources */,
+				56CDC3FF24CEF5D300C19F0A /* FFUniverseObject.swift in Sources */,
+				FD203C0320B53043006CA49D /* FFMyFavRecipeListRequestModel.swift in Sources */,
+				E8FC4457250229C900ECF2E9 /* FFAddStoreStepTwoVC.swift in Sources */,
+				E8BD5CF324EA87F60078EB67 /* FFResStoreObject.swift in Sources */,
+				636983E925791DDA008D97FB /* FFFifthPrefernceViewController.swift in Sources */,
+				EE96E6A12109B8F10052FBED /* FFPlaceObject.swift in Sources */,
+				587BBB8620CA575400F7F75E /* FFSelectPopUpViewController.swift in Sources */,
+				EE880E48210761B500D6651F /* FFGetRestaurantRecipeRequestModel.swift in Sources */,
+				FD62536420BFE9DB00EF7E5F /* FFLostPasswordViewController.swift in Sources */,
+				633F8D0B258288E700A707E5 /* FFCountriesByLanguageRequestModel.swift in Sources */,
+				FD438EA820B3F4A3006FFE53 /* FFMyRecipesListRequestModel.swift in Sources */,
+				589163C020CE3B4600924368 /* FFSearchIngredientRequestModel.swift in Sources */,
+				E88C56B92521A304004091E0 /* FFMyFollowListRequestModel.swift in Sources */,
+				FD59B88D20BD19F20047D37A /* FFMyCategoriesListRequestModel.swift in Sources */,
+				E82F7134252D5C250084A13B /* FFFaqViewController.swift in Sources */,
+				FD7D96BE20B2CBA400BDC837 /* FFPostReviewRequestModel.swift in Sources */,
+				58E80BC620D8CA2000016780 /* FFIngredientUploadObject.swift in Sources */,
+				E84E2D7525303C5A00D5CD2C /* FFLikeStoreRequestModel.swift in Sources */,
+				FD75E73120A2BC82006D821E /* FFThematicDishesTypeViewController.swift in Sources */,
+				E86C13A525014ED00080F2ED /* FFRestaurantReviewListModel.swift in Sources */,
+				582A2BA920E2021E00FCA918 /* FFNotificationObject.swift in Sources */,
+				FD592FFD20C643A700F2D306 /* FFDishDetailRequestModel.swift in Sources */,
+				5620210224DC404600B626B4 /* FFStoreListModel.swift in Sources */,
+				EE245F9420F4EEBC001BE736 /* FFNicknameSearchRequestModel.swift in Sources */,
+				633F4C2E25810F7B00F5FD3B /* FFLikeMultipleInterestRequestModel.swift in Sources */,
+				EE96E6A52109BE520052FBED /* FFGetCitiesRequestModel.swift in Sources */,
+				56009AE424D3ECEE005A5F6D /* FFLanguageRequestModel.swift in Sources */,
+				E8131C16251D9D5A00E9F70F /* Language.swift in Sources */,
+				587BBB8420C9549B00F7F75E /* FFStepTwoViewController.swift in Sources */,
+				E80642F3251BACB000FF1166 /* FFbirthdateObject.swift in Sources */,
+				FD75E72920A2ADBF006D821E /* FFEatWellDetailRequestModel.swift in Sources */,
+				FD4C063E20BBF2EE00DB8297 /* FFMyIngredientsViewController.swift in Sources */,
+				E8D331AC2525DFAC005AE770 /* UIView+Ext.swift in Sources */,
+				562C78B024D4583600E3530C /* FFIngreVarietyRequestModel.swift in Sources */,
+				E804A71925054A8D004AC173 /* FFSearchStoreRequestModel.swift in Sources */,
+				E80642EF251B615000FF1166 /* FFUserAddressObject.swift in Sources */,
+				E80D159724FFF60F00904C07 /* FFDaysModel.swift in Sources */,
+				E8B03EA325076A5100F2DE14 /* FFAddMenuViewController.swift in Sources */,
+				E8FC4459250229D900ECF2E9 /* FFAddStoreStepThreeVC.swift in Sources */,
+				E80642F6251BAF4500FF1166 /* FFChangePasswordVC.swift in Sources */,
+				EE7932F12100670400CE6D6C /* FFRestaursntListRequestModel.swift in Sources */,
+				6342646D2577D3E2008C2A91 /* FFFourthPrefernceViewController.swift in Sources */,
+				E83CFB4824FD30D000FC0733 /* FFFunctionModel.swift in Sources */,
+				58F617E920E49AE800FCB4E3 /* FFEditProfileViewController.swift in Sources */,
+				EE96E69B21099A350052FBED /* FFFindRestaurantViewController.swift in Sources */,
+				634613DC256D0BF2003DD527 /* EatWellMenuViewController.swift in Sources */,
+				E81294CD2519BA2B005317F1 /* FFUpdateHoursViewController.swift in Sources */,
+				E8D331A32525D8B8005AE770 /* TimeCell.swift in Sources */,
+				EE1ABD3F2108855000009934 /* FFRestaurantActivityCellTableViewCell.swift in Sources */,
+				56157FA624DDBF81008C021D /* FFStoreListCityWiseModel.swift in Sources */,
+				58C7C52A20ECB94800537C0F /* FFAddFriendByEmailRequestModel.swift in Sources */,
+				561BBF8E24C7EB99006E47AC /* FFFaqObject.swift in Sources */,
+				E8FC4455250229B700ECF2E9 /* FFAddStoreStepOneVC.swift in Sources */,
+				E8D331A82525DA4F005AE770 /* FFGetMessagesRequestModel.swift in Sources */,
+				EE96E6A32109BCDA0052FBED /* FFGetRegionsRequestModel.swift in Sources */,
+				561BBF8824C7E402006E47AC /* FFSeasonObject.swift in Sources */,
+				EE620B6E20F7344A005343C9 /* FFCheckFreindRequestModel.swift in Sources */,
+				566DEFAA24D98E0800F44CD6 /* FFMenuTableViewCell.swift in Sources */,
+				FD75E73920A30A8D006D821E /* FFDishTableViewCell.swift in Sources */,
+				FD59B89320BD62EF0047D37A /* FFMyInterestsViewController.swift in Sources */,
+				FD66B32420C10F670065F749 /* FFDislikeInterestRequestModel.swift in Sources */,
+				EE888D2E211072AA0098DF76 /* FFRestaurantDetailRequestModel.swift in Sources */,
+				6348AE86257F8A01006A91B5 /* FFExpertiseLevelObject.swift in Sources */,
+				FD57DF7520A0758300D43ECC /* FFLoginViewController.swift in Sources */,
+				EE1B527220EE57C80044259D /* FFBlockFriendRequestModel.swift in Sources */,
+				FD4C064720BC1F3800DB8297 /* FFDislikeIngredientRequestModel.swift in Sources */,
+				E80CA7D125315A950046A0DA /* FFStoreProductDetailVC.swift in Sources */,
+				FD203C0520B54728006CA49D /* FFNutritionObject.swift in Sources */,
+				E847CAED2530C33000A2C25C /* FFProfessionalHomeViewController.swift in Sources */,
+				6342644E25768525008C2A91 /* FFThirdPrefernceViewController.swift in Sources */,
+				EE96E69F2109B8560052FBED /* FFGetCountriesRequestModel.swift in Sources */,
+				E89246BA2534DA9E00E36E93 /* FFDashboardViewController.swift in Sources */,
+				E8131C14251D9D2000E9F70F /* LanguageObservable.swift in Sources */,
+				EE9981DF211C6F8F006E3287 /* FFDeleteRecipeRequestModel.swift in Sources */,
+				562C78AE24D457A000E3530C /* FFIngrVarietyObject.swift in Sources */,
+				FDD314D1209AEE8500A9E8D1 /* FFBaseResponseModel.swift in Sources */,
+				EE9981E3211C9447006E3287 /* FFRestaurantSubscribeRequestModel.swift in Sources */,
+				E8C278B1252EE818008503BC /* FFStoreProductCategoriesRequestModel.swift in Sources */,
+				FD7D96B820B28B0A00BDC837 /* FFReviewTableViewCell.swift in Sources */,
+				635D3E4A257E740300442801 /* FFSelectLanguageViewController.swift in Sources */,
+				EE1B527020EE4D600044259D /* FFRejectFriendRequest.swift in Sources */,
+				566DEFA424D948C500F44CD6 /* FFRestaurantMenuModel.swift in Sources */,
+				E84757C6251C497D007E9739 /* FFUpdateAddressRequestModel.swift in Sources */,
+				E8D331AE2525E9B5005AE770 /* FFSendMessageRequestModel.swift in Sources */,
+				E891158D24F5495300915C5B /* FFAddRestaurantThreeViewController.swift in Sources */,
+				EE7932EE210063AF00CE6D6C /* FFRestaurantObject.swift in Sources */,
+				FD203C0920B58635006CA49D /* FFDislikeRecipeRequestModel.swift in Sources */,
+				FD5EF23620A193CC0075239B /* FFBaseClass.swift in Sources */,
+				561BBF8C24C7EA67006E47AC /* FFFaqModel.swift in Sources */,
+				E8B03EA525076EE200F2DE14 /* FFAddMenuRequestModel.swift in Sources */,
+				E8ADAF6A252F600C005CD48F /* FFInvitedByObject.swift in Sources */,
+				E8123FBA252D5E5200118D4E /* FFHomeRecipeViewController.swift in Sources */,
+				E896236924F043BB00A3FFEB /* FFAddRestaurantTwoViewController.swift in Sources */,
+				56009AE824D3F2B5005A5F6D /* LanguagesTableViewCell.swift in Sources */,
+				FD57DF6D20A011C600D43ECC /* FFDessertsListViewController.swift in Sources */,
+				FD50CACC209C8116009DE321 /* FFEntranceCollectionViewCell.swift in Sources */,
+				FDD314CF209AEE7800A9E8D1 /* FFBaseRequestModel.swift in Sources */,
+				E8DA91B2250CF4FB003CF88A /* FFContactUsNewViewController.swift in Sources */,
+				E8B03EA92507BEFF00F2DE14 /* FFDeleteMenuRequestModel.swift in Sources */,
+				E86C13A325014E990080F2ED /* FFStoreReviewListModel.swift in Sources */,
+				633FD3A8256E7B1400A23313 /* FFDisableNotificationRequestModel.swift in Sources */,
+				FD4C064320BC04D500DB8297 /* FFMyIngredientRequestModel.swift in Sources */,
+				E8B03EA72507B14500F2DE14 /* FFPreferencesViewController.swift in Sources */,
+				E83DCC3625001AD200C83C99 /* OwnerCollectionHeader.swift in Sources */,
+				FD39531C20AD5ECE004E3B1B /* FFRecipeListRequestModel.swift in Sources */,
+				561BBF9024C7FE0E006E47AC /* FFNutritionModel.swift in Sources */,
+				E83C6C23253590100080484E /* FFProfessionalHomeSecondVC.swift in Sources */,
+				56157FA824DDC07E008C021D /* FFStoreDetailViewController.swift in Sources */,
+				634613DF256D417F003DD527 /* FFWhatIlikeVC.swift in Sources */,
+				E8C278B3252EEA7D008503BC /* FFStoreProductsObject.swift in Sources */,
+				FD438EA520B3E6F3006FFE53 /* FFMyRecipeTableViewCell.swift in Sources */,
+				E8FC445B250246BA00ECF2E9 /* FFSuggestStorePostModel.swift in Sources */,
+				FDB7AE4520AAE90700867AFF /* FFCategoryDetailTableViewCell.swift in Sources */,
+				E84216D9252B4BCB008845E1 /* FFNonProfessionalHomeViewController.swift in Sources */,
+				5856D69A20E11F5900687203 /* FFNotificationSettingsViewController.swift in Sources */,
+				E826560025237D0600E67092 /* FFUpdateRestStoreDescVC.swift in Sources */,
+				E86C13A925014F7B0080F2ED /* FFStorePostReviewRequestModel.swift in Sources */,
+				FD60DED220BEB0BB00C93137 /* FFRegistrationViewController.swift in Sources */,
+				E88C56B52521A053004091E0 /* FollowTableViewCell.swift in Sources */,
+				E810212E24FE7D56006FD55B /* FFAddRestaurantBaseController.swift in Sources */,
+				634ABA81256397DA00CC2C01 /* Util+Ext.swift in Sources */,
+				FD2CB2D020AEE30700613CBC /* FFReviewObject.swift in Sources */,
+				56009AF024D4013C005A5F6D /* FFStoreTypeTableViewCell.swift in Sources */,
+				FDD314B7209ADB9D00A9E8D1 /* AppDelegate.swift in Sources */,
+				FD4C064520BC10C400DB8297 /* FFLikeIngredientRequestModel.swift in Sources */,
+				56009AE624D3F167005A5F6D /* FFLanguageObject.swift in Sources */,
+				E82655FC2522F04B00E67092 /* FFMemberProfileViewController.swift in Sources */,
+				E80642F8251BB1F900FF1166 /* FFChangePasswordRequestModel.swift in Sources */,
+				E8B03EAB2507E1F300F2DE14 /* FFCurrencyObject.swift in Sources */,
+				FD75E72E20A2BA45006D821E /* FFThematicViewController.swift in Sources */,
+				E89246B82534558D00E36E93 /* FFHomeFaqModel.swift in Sources */,
+				E8D2D925252201F500E60D0D /* FFMemberFavouritesRequestModel.swift in Sources */,
+				E86C13A725014F3B0080F2ED /* FFRestaurantPostReviewRequestModel.swift in Sources */,
+				EE96E69D2109A1550052FBED /* FFGetFavRestaurantListRequestModel.swift in Sources */,
+				EE620B7020F7C097005343C9 /* FFChatViewController.swift in Sources */,
+				E8494BA12518E0EE00A587A7 /* FFUpdateGetInTouchViewController.swift in Sources */,
+				5856D69820E1197A00687203 /* FFNotificationViewController.swift in Sources */,
+				5601616224DDD1DD00212E9C /* FFStoreDetailModel.swift in Sources */,
+				FD57DF6B20A011B700D43ECC /* FFDishesListViewController.swift in Sources */,
+				FD66B32A20C11D700065F749 /* FFRetrievePasswordRequestModel.swift in Sources */,
+				56009AEE24D40068005A5F6D /* FFStoreTypeRequestModel.swift in Sources */,
+				58C7C52020EB50EE00537C0F /* FFriendsListViewController.swift in Sources */,
+				EE96E6A72109C23E0052FBED /* FFSearchRestaurantsRequestModel.swift in Sources */,
+				6340F5A12549A1FD007AFD5F /* FFAllRecipesListRequestModel.swift in Sources */,
+				FD75E73320A2F0EA006D821E /* FFThematicIngredientsViewController.swift in Sources */,
+				E80642F1251B64D200FF1166 /* FFGamificationObject.swift in Sources */,
+				E814E8C3250365EE001E5445 /* FFDisplayHourModel.swift in Sources */,
+				E8D8386C24F7CD09005CA50B /* FFSpecialDietObject.swift in Sources */,
+				E8B03EAD2507EBDF00F2DE14 /* FFFindRecipeViewController.swift in Sources */,
+				56009AEC24D3FFD9005A5F6D /* FFStoreTypeObject.swift in Sources */,
+				582A2BAE20E210DC00FCA918 /* FFPostNotificationRequestModel.swift in Sources */,
+				5609053124C71A2300EA3FDB /* FFIngredientDetailTableViewCell.swift in Sources */,
+				E8D331AA2525DB5F005AE770 /* FFMessageObject.swift in Sources */,
+				FD57DF6920A0100500D43ECC /* FFLoaderView.swift in Sources */,
+				633FF036258358B40047911B /* FFAddCountriesLanguageRequestModel.swift in Sources */,
+				FD59B88F20BD3FBF0047D37A /* FFLikeCategoryRequestModel.swift in Sources */,
+				58C7C52820EC97A500537C0F /* FFAddFriendViewController.swift in Sources */,
+				633FD3A5256E7A9E00A23313 /* FFEnableNotificationRequestModel.swift in Sources */,
+				E8069119250937020018C983 /* FFRecipeTypeRequestModel.swift in Sources */,
+				FD4C064F20BC32B500DB8297 /* FFMyCategoriesTableViewCell.swift in Sources */,
+				E810212C24FE4F2D006FD55B /* FFDeclareOwnerRestaurantViewController.swift in Sources */,
+				589163C620CEA55000924368 /* FFStepObject.swift in Sources */,
+				E88C56BB2521A419004091E0 /* FFFollowObject.swift in Sources */,
+				E80D1599250017B600904C07 /* MyHeaderFooterClass.swift in Sources */,
+				58C7C52320EB5CED00537C0F /* FFFriendObject.swift in Sources */,
+				56D17CA524D33A8800D7B61D /* FFLanguagesViewController.swift in Sources */,
+				E8D331A42525D8B8005AE770 /* SenderCell.swift in Sources */,
+				FD50CAC9209C7D27009DE321 /* FFEntranceListViewController.swift in Sources */,
+				FD5EF23820A195DA0075239B /* FFProfileViewController.swift in Sources */,
+				6348AE89257F9394006A91B5 /* FFAddExpertiseLevelRequestModel.swift in Sources */,
+				EE880E4A210761C800D6651F /* FFGetRestaurantActivityRequestModel.swift in Sources */,
+				E84E2D7725303C6600D5CD2C /* FFDisLikeStoreRequestModel.swift in Sources */,
+				FDAC6FB320C50A3C005AF076 /* FFAddRecipeViewController.swift in Sources */,
+				E810212A24FE2D0A006FD55B /* FFAllInterestObject.swift in Sources */,
+				FD5EF23420A18D900075239B /* FFUserObject.swift in Sources */,
+				FD4C064C20BC329400DB8297 /* FFMyCategoriesViewController.swift in Sources */,
+				E8131C12251D9CE000E9F70F /* UserDefault.swift in Sources */,
+				FD5EF23C20A1AF660075239B /* FFEatWellListViewController.swift in Sources */,
+				FD438EAA20B43934006FFE53 /* FFMyFavoriteRecipesViewController.swift in Sources */,
+				5609052F24C717BC00EA3FDB /* FFIngredientDetailController.swift in Sources */,
+				56CDC40124CEF68200C19F0A /* FFUniverseRequestModel.swift in Sources */,
+				E8C278AF252EE7B5008503BC /* FFStoreProductCategoriesObject.swift in Sources */,
+				FD2CB2CE20AECB8D00613CBC /* FFEatWellRecipeViewController.swift in Sources */,
+				58C7C52C20ECC1D500537C0F /* FFAddFriendByNickNameRequestModel.swift in Sources */,
+				58C823B420D22A4800E6E858 /* FFAddRecipeRequestModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E81A2ED925138E29005DD9FB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E81A2ED825138E29005DD9FB /* en */,
+				633F30F925483A900060E653 /* fr */,
+				633F30FA25483A920060E653 /* de */,
+				633F30FB25483A950060E653 /* it */,
+				633F30FC25483A980060E653 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		FDD314BA209ADB9D00A9E8D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD314BB209ADB9D00A9E8D1 /* Base */,
+				E84F6A1E2511D7D000C5682E /* es */,
+				E84F6A202511D7DA00C5682E /* de */,
+				E84F6A222511D7E100C5682E /* fr */,
+				E84F6A242511D7ED00C5682E /* it */,
+				E84F6A272511D9A700C5682E /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDD314BF209ADB9E00A9E8D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD314C0209ADB9E00A9E8D1 /* Base */,
+				E84F6A1F2511D7D000C5682E /* es */,
+				E84F6A212511D7DA00C5682E /* de */,
+				E84F6A232511D7E100C5682E /* fr */,
+				E84F6A252511D7ED00C5682E /* it */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDD314C3209ADB9E00A9E8D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FDD314C4209ADB9E00A9E8D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDD314C6209ADB9E00A9E8D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB720A8E230F09F04D8DFBED /* Pods-FriendsAndFoodApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = 9Z68K9QV27;
+				INFOPLIST_FILE = FriendsAndFoodApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FriendsAndFoodApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.friends-and-food.friendsfood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FDD314C7209ADB9E00A9E8D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A59307482D46FC1E46257B /* Pods-FriendsAndFoodApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = 9Z68K9QV27;
+				INFOPLIST_FILE = FriendsAndFoodApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FriendsAndFoodApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.friends-and-food.friendsfood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD314AE209ADB9D00A9E8D1 /* Build configuration list for PBXProject "FriendsAndFoodApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD314C3209ADB9E00A9E8D1 /* Debug */,
+				FDD314C4209ADB9E00A9E8D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD314C5209ADB9E00A9E8D1 /* Build configuration list for PBXNativeTarget "FriendsAndFoodApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD314C6209ADB9E00A9E8D1 /* Debug */,
+				FDD314C7209ADB9E00A9E8D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD314AB209ADB9D00A9E8D1 /* Project object */;
+}

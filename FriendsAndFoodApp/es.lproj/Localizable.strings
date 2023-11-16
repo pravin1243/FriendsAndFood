@@ -1,0 +1,270 @@
+/* 
+ Localizable.strings
+ FriendsAndFoodApp
+ 
+ Created by Luminescent Digital on 15/08/18.
+ Copyright © 2018 LumiMac. All rights reserved.
+ */
+
+//Login
+"This field is required" = "Este campo es obligatorio";
+"Incorrect e-mail" = "Email incorrecto";
+"Incorrect password" = "Contraseña incorrecta";
+"Invalid field" = "Campo inválido";
+"By using friends & food, you agree on our Terms of Service and Privacy Policy" = "Al utilizar Friends & Food, acepta nuestros Términos de servicio y Política de privacidad";
+"Passwords do not match" = "Las contraseñas no coinciden";
+
+
+
+//Menu
+"home" = "Home";
+"my_recipes" = "Mis recetas";
+"my_preferred_restaurants" = "Mis restaurantes favoritos";
+"my_favorite" = "Mi lista de favoritos";
+"i_like" = "Me gusta";
+"my_friends" = "Mis amigos";
+"stores" = "Tiendas y Restaurantes";
+"preferences" = "Preferencias";
+"languages" = "Cambiar idioma";
+"notifications" = "Reglas de notificación";
+"contact_us" = "Contáctenos";
+"logout" = "Desconectarse";
+"All The Recipes" = "Todas Las Recetas";
+"What I Like" = "Lo que me gusta";
+
+//Tab
+"Home" = "Home";
+"AtTheMoment" = "AtTheMoment";
+"Eat Well" = "Comer Bien";
+"Thematic" = "Categorias";
+"Profile" = "Perfil";
+"Followers" = "Seguidores";
+"Reviews" = "Opiniones";
+
+
+//Restaurant
+"There are no recipes for this restaurant" = "There are no recipes for this restaurant";
+"There are no activities for this restaurant" = "There are no activities for this restaurant";
+"You have no favorite restaurants" = "You have no favorite restaurants";
+"Sorry, we did not find any results" = "Sorry, we did not find any results";
+"Please select a country first" = "Primero seleccione un país";
+"Sorry, we did not find any results" = "Lo sentimos, no encontramos ningún resultado.";
+
+
+//Messaging
+"Messaging" = "Messaging";
+"Messaging with" = "Discusión con";
+
+
+//Freinds
+"You have no friends at this moment" = "You have no friends at this moment";
+"You have no requests at this moment" = "You have no requests at this moment";
+"You have no invitations at this moment" = "You have no invitations at this moment";
+"Add Friend" = "Add Friend";
+"Enter email" = "Enter email";
+
+
+//Notifications
+"Notification Settings" = "Notification Settings";
+
+
+//Categories
+"I like" = "I like";
+"I no longer like" = "I no longer like";
+
+
+//Recipes
+" As soon as you are on a recipe, click on the Like sign, it will be found here. " = " As soon as you are on a recipe, click on the Like sign, it will be found here.";
+"Other" = "Other";
+"Enter dish type" = "Ingrese el tipo de receta";
+"Enter title" = "Agregar título";
+"Enter difficulty level" = "Introduzca la dificultad";
+"Enter preparation time" = "Añadir tiempo de preparación";
+"Enter cooking time" = "Agregar tiempo de cocción";
+"Select theme" = "Elija una dieta";
+"Select category" = "Elija una categoría";
+"Only a maximum of 12 ingredients can be added" = "Solo se pueden agregar un máximo de 12 ingredientes";
+"Only maximum of 12 steps can be added" = "Solo se pueden agregar un máximo de 12 pasos";
+"Enter number of persons" = "Ingrese el número de personas";
+"Enter atleast one ingredient" = "Agregue al menos un ingrediente";
+"Enter atleast one step" = "Agregar al menos un paso";
+"Enter quantity" = "Ingrese la cantidad";
+"Select measure" = "Elija la unidad de medida";
+"A maximum of only 6 images can be added" = "Solo se puede agregar un máximo de 6 imágenes";
+"Add atleast one image" = "Agregar al menos una imagen";
+"0 cal" = "0 cal";
+"For" = "Para";
+"persons" = "personas";
+"min" = "min";
+"hr" = "h";
+"Step" = "Paso";
+
+
+//At the moment
+"Entrances" = "Entrances";
+"Dishes" = "Dishes";
+"Desserts" = "Desserts";
+"No recipes found" = "No recipes found";
+"Dishes Type" = "Tipo de platos";
+"Ingredients Family" = "Familia de ingredientes";
+"INGREDIENT" = "INGREDIENT";
+"CATEGORY" = "CATEGORY";
+"Log in to continue!" = "Log in to continue!";
+"reviews on this recipe" = "opinion en esta receta";
+"review on this recipe" = "opiniones en esta receta";
+
+
+
+//Restaurant or Store Detail
+
+"Sunday" = "Domingo";
+"Monday" = "Lunes";
+"Tuesday" = "Martes";
+"Wednesday" = "Miércoles";
+"Thursday" = "Jueves";
+"Friday" = "Viernes";
+"Saturday" = "Sábado";
+"closed" = "Granja";
+"In the morning" = "Durante el día";
+"In the evening" = "De noche";
+"no data given by the owner" = "informacion no disponible";
+"Call us" = "Llámanos";
+"Send email" = "Enviar un email";
+"email wasn't given by the owner" = "email no disponible";
+"Website" = "Sitio web";
+"website wasn't given by the owner" = "Sitio web no disponible";
+"Facebook" = "Facebook";
+"facebook page wasn't given by the owner" = "Página de Facebook no disponible";
+"There are no menu for this restaurant" = "Aún no se agregó ningún menú";
+"Update Info" = "Actualización de información";
+"Owner confirmation" = "Propietario confirmado";
+"Are you the owner of this store?" = "¿Eres responsable de este comercio ?";
+"Yes" = "Si";
+"No" = "No";
+"Please confirm that you are a professional ?" = "¿Confirmas que eres un profesional ?";
+"I confirm" = "Confirmo";
+"Later" = "Más tarde";
+"reviews on this store" = "opiniones para este negocio";
+"expensive" = "Querido";
+"cheap" = "Barato";
+
+"Affordable" = "Asequible";
+"There are no products for this store" = "Este comerciante aún no ha agregado sus productos, aún puede comunicarse con él por teléfono.";
+"Are you the owner of this restaurant?" = "¿Eres el gerente de este restaurante ? ";
+"reviews on this restaurant" = "opiniones sobre este restaurante";
+"Confirmation" = "Confirmación";
+
+//Recipe Detail
+"Myself" = "Yo mismo";
+
+//My Profile
+"UPDATE PERSONAL ADDRESS" = "Cambio de dirección";
+"UPDATE PROFESSIONAL ADDRESS" = "Cambio de domicilio comercial";
+
+//Store
+
+"Products" = "Productos";
+
+//Favorites list
+"Favorites list" = "Lista de favoritos";
+"MY RECIPE" = "Recetas";
+"My Store" = "Tiendas y Restaurantes";
+"My Followers" = "Followers";
+
+//Add Store
+"Choose an Image" = "Elige una imagen";
+"Take an image" = "Toma una imagen";
+"Search in the gallery" = "Buscar en la galería";
+"Cancel" = "Cancelar";
+"Enter the activity of the store" = "Ingrese la actividad de la tienda";
+"A maximum of only 6 images can be added" = "Se puede agregar un máximo de solo 6 imágenes";
+"You don't have camera" = "No tienes cámara";
+"Warning" = "Advertencia";
+"OK" = "OKAY";
+"Enter Official name of the establishment" = "Ingrese el nombre oficial del establecimiento";
+"Enter the country" = "Ingrese el país";
+"Enter the city" = "Entrar en la ciudad";
+"Enter the postal code" = "Ingrese el código postal";
+"Enter the number and street" = "Ingresa el número y la calle";
+"Enter the phone" = "Ingresa el teléfono";
+"Enter the restaurant email" = "Ingresa el correo electrónico del restaurante";
+"Enter the website URL" = "Ingrese la URL del sitio web";
+"Enter the facebook page" = "Entrar en la página de facebook";
+"Email is not valid" = "E-mail no es válido";
+"Enter Email" = "Ingrese su E-mail";
+"Enter restaurant email" = "Ingrese el E-mail del restaurante";
+"Select at least one interest" = "Seleccione al menos una dieta";
+"Enter Culinary Specialties" = "Ingrese las especialidades culinarias";
+"Enter price range" = "Ingrese el rango de precios";
+"Kindly accept terms and conditions" = "Amablemente acepte los términos y condiciones";
+
+//I Like
+"I like" = "Me gusta";
+"I no longer like" = "Ya no me gusta";
+"Ingredients" = "Ingredientes";
+"Interests" = "Dietas";
+
+"Recipes" = "Recetas";
+"Restaurants" = "Restaurantes";
+"Commerces" = "Tiendas";
+"Q&A" = "FAQ";
+"Friends" = "Amigos";
+
+//My Friends
+"My Friends" = "Mis Amigos";
+"You have no requests at this moment" = "No tienes solicitudes en este momento";
+"You have no invitations at this moment" = "No tienes invitaciones en este momento";
+
+//FAQ
+"Frequently asked questions" = "Preguntas frecuentes";
+
+//CGU
+"cgu_url" = "https://es.friends-and-food.com/st-cgu";
+
+"Advanced Recipe Search" =    "Búsqueda avanzada de recetas";
+"Restaurants" =    "Restaurantes";
+"Advanced Restaurant search" =    "Búsqueda avanzada de restaurantes";
+"Menu" =    "Menú";
+"Info" =    "Información";
+"fooders" =    "fooders";
+"Enter email" =    "Ingrese correo electrónico";
+"Add a Friend" =    "Añade un amigo";
+"Entrances" =    "Entradas";
+"Dishes" =    "Platos";
+"Desserts" =    "Postres";
+"Nutrition" =    "Nutrición";
+"Ingredient details" =    "Detalles de los ingredientes";
+"Variance" =    "Diferencia";
+"No recipes found" =    "No se encontraron recetas";
+"Title" =    "Título";
+"Description" =    "Descripción";
+"Message" =    "Mensaje";
+
+//User Preference
+"Hi" = "Hola";
+"Welcome to Friends & Food, let's talk about you and what you prefer in order to personalize your recipe suggestions" = "Bienvenido a Friends & Food, hablemos de ti y de lo que prefieres para personalizar tus sugerencias de recetas";
+"Which diets are right for you ?" = "¿Qué dietas son adecuadas para ti ?";
+"Everything suits me !" = "¡Todo me queda bien !";
+"Check your desires among these themes" = "Compruebe sus deseos entre estos temas";
+"Beginner" = "Principiante";
+"Intermediate" = "Intermedio";
+"Expert" = "Experto";
+"Indicate your level in cooking" = "Indica tu nivel en la cocina";
+"This is indicative in order to offer you cooking challenges that correspond to your level." = "Esto es indicativo para poder ofrecerte desafíos culinarios que correspondan a tu nivel.";
+"Ingredients that I don't really like" = "Ingredientes que realmente no me gustan";
+"By adding what you don't like, the app spares you the recipes that contain any of these ingredients." = "Al agregar lo que no le gusta, la aplicación le ahorra las recetas que contienen cualquiera de estos ingredientes.";
+"Well done !" = "Bien hecho !";
+"Your Friends & Food account is perfectly configured." = "Tu cuenta Friends & Food está perfectamente configurada.";
+
+
+"Indicate your address !" = "¡Indique su dirección!";
+"Receive custom local restaurants and shops recommendations by entering your address." = "Reciba recomendaciones personalizadas de restaurantes y tiendas locales ingresando su dirección.";
+"Select a country" = "Elige un pais";
+"Select a region" = "Seleccione una región";
+"Select a city" = "Seleccione una ciudad";
+"Enter your zip code" = "Ingrese su código postal";
+"Enter your address" = "Ingrese su direccion";
+"Next step" = "Da el siguiente paso";
+
+"Select your language ?" = "¿Elige tu idioma ?";
+"Select your country from the list" = "Seleccione su país de la lista";
